@@ -1,3 +1,28 @@
 {
-  "dubious_questions": []
+  "dubious_questions": [
+    {
+      "question": "In a standard break, what is the recommended position for ball 4 before attempting hoop 1?",
+      "questionId": 3,
+      "timestamp": "2024-12-26T16:53:23.454Z",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "In modern tournament play, when using a supershot opening (where the first ball is played to corner 1), where is the second ball typically placed?",
+      "questionId": 4,
+      "timestamp": "2024-12-26T16:53:48.101Z",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "Under current rules, what happens if a ball hits the peg when it is not pegged out?",
+      "questionId": 7,
+      "timestamp": "2024-12-26T16:54:14.493Z",
+      "category": "Rules and Regulations"
+    },
+    {
+      "question": "What is the correct distance between hoops 1 and 2 on a standard court?",
+      "questionId": 9,
+      "timestamp": "2024-12-26T16:55:02.846Z",
+      "category": "Rules and Regulations"
+    }
+  ]
 }

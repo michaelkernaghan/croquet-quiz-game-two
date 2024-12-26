@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "questionCount": 34,
+  "questionCount": 42,
   "lastUpdated": "2024-12-26",
   "questions": [
     {
@@ -1260,6 +1260,302 @@
       "questionType": 7,
       "citation": "Croquet Association Championship Records, 1956",
       "category": "Famous Matches and Players"
+    },
+    {
+      "question": "What is the standard weight range for tournament croquet balls?",
+      "answers": [
+        {
+          "id": "e1",
+          "answer": "15.5 to 16.5 ounces",
+          "correct": true
+        },
+        {
+          "id": "e2",
+          "answer": "14 to 15 ounces",
+          "correct": false
+        },
+        {
+          "id": "e3",
+          "answer": "16.5 to 17.5 ounces",
+          "correct": false
+        },
+        {
+          "id": "e4",
+          "answer": "13.5 to 14.5 ounces",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Ball Specifications",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Equipment standards, ball specifications",
+        "summary": "Tournament croquet balls must weigh between 15.5 and 16.5 ounces to ensure consistent play characteristics.",
+        "significance": "Critical for maintaining standardized equipment",
+        "related_concepts": "Equipment standards, game consistency"
+      },
+      "questionType": 6,
+      "citation": "Laws of Association Croquet, 7th Edition, Law 3.a.1",
+      "category": "Equipment"
+    },
+    {
+      "question": "What material is required for tournament-grade croquet hoops?",
+      "answers": [
+        {
+          "id": "e5",
+          "answer": "Carrots of solid metal",
+          "correct": true
+        },
+        {
+          "id": "e6",
+          "answer": "Hollow metal tubes",
+          "correct": false
+        },
+        {
+          "id": "e7",
+          "answer": "Carbon fiber rods",
+          "correct": false
+        },
+        {
+          "id": "e8",
+          "answer": "Hardened plastic",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Hoop Construction Standards",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Equipment standards, hoop specifications",
+        "summary": "Tournament hoops must be made from carrots of solid metal to provide proper rigidity and durability.",
+        "significance": "Essential for consistent hoop behavior",
+        "related_concepts": "Equipment standards, tournament specifications"
+      },
+      "questionType": 6,
+      "citation": "World Croquet Federation Equipment Regulations 2023, Section 2.1",
+      "category": "Equipment"
+    },
+    {
+      "question": "In what year was the All England Croquet Club founded?",
+      "answers": [
+        {
+          "id": "h5",
+          "answer": "1868",
+          "correct": true
+        },
+        {
+          "id": "h6",
+          "answer": "1875",
+          "correct": false
+        },
+        {
+          "id": "h7",
+          "answer": "1882",
+          "correct": false
+        },
+        {
+          "id": "h8",
+          "answer": "1890",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Origins of Organized Croquet",
+        "year": 1868,
+        "author": "Croquet Association",
+        "key_concepts": "Club history, organizational development",
+        "summary": "The All England Croquet Club was founded in 1868, establishing the first major organized croquet institution. The club later became famous as Wimbledon.",
+        "significance": "Marked the beginning of organized competitive croquet",
+        "related_concepts": "Club development, sport organization"
+      },
+      "questionType": 3,
+      "citation": "All England Club Historical Records, Croquet Association Archives",
+      "category": "History"
+    },
+    {
+      "question": "Who holds the record for most consecutive MacRobertson Shield victories as team captain?",
+      "answers": [
+        {
+          "id": "fm5",
+          "answer": "John Prince",
+          "correct": true
+        },
+        {
+          "id": "fm6",
+          "answer": "Robert Fulford",
+          "correct": false
+        },
+        {
+          "id": "fm7",
+          "answer": "Chris Clarke",
+          "correct": false
+        },
+        {
+          "id": "fm8",
+          "answer": "Reg Bamford",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "MacRobertson Shield Records",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Tournament records, team leadership",
+        "summary": "John Prince led New Zealand to three consecutive MacRobertson Shield victories (1979, 1982, 1986), the longest streak as team captain.",
+        "significance": "Notable achievement in international competition",
+        "related_concepts": "Team competition, leadership, tournament history"
+      },
+      "questionType": 7,
+      "citation": "MacRobertson Shield Official Records 1925-2023",
+      "category": "Famous Matches and Players"
+    },
+    {
+      "question": "Which historic match first demonstrated the possibility of the sextuple peel?",
+      "answers": [
+        {
+          "id": "fm9",
+          "answer": "Solomon vs. Cotter, 1956 Open Championship",
+          "correct": true
+        },
+        {
+          "id": "fm10",
+          "answer": "Wylie vs. Aspinall, 1962 Presidents Cup",
+          "correct": false
+        },
+        {
+          "id": "fm11",
+          "answer": "Bamford vs. Clarke, 1995 World Championship",
+          "correct": false
+        },
+        {
+          "id": "fm12",
+          "answer": "Fulford vs. Death, 1988 Men's Championship",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Evolution of Advanced Play",
+        "year": 1956,
+        "author": "Croquet Association",
+        "key_concepts": "Technical development, historic achievements",
+        "summary": "The Solomon vs. Cotter match at the 1956 Open Championship marked the first successful tournament sextuple peel, revolutionizing advanced play tactics.",
+        "significance": "Demonstrated new possibilities in break play",
+        "related_concepts": "Advanced tactics, technical innovation"
+      },
+      "questionType": 7,
+      "citation": "Croquet Association Championship Records, 1956",
+      "category": "Famous Matches and Players"
+    },
+    {
+      "question": "What is the correct stance width for executing a drive shot?",
+      "answers": [
+        {
+          "id": "ts1",
+          "answer": "Shoulder width",
+          "correct": true
+        },
+        {
+          "id": "ts2",
+          "answer": "Wider than shoulders",
+          "correct": false
+        },
+        {
+          "id": "ts3",
+          "answer": "Narrower than shoulders",
+          "correct": false
+        },
+        {
+          "id": "ts4",
+          "answer": "One foot length",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Drive Shot Fundamentals",
+        "year": 2020,
+        "author": "World Croquet Federation",
+        "key_concepts": "Shot technique, stance, body position",
+        "summary": "A shoulder-width stance provides optimal balance and control for drive shots, allowing proper weight transfer and follow-through.",
+        "significance": "Foundation for consistent shot execution",
+        "related_concepts": "Shot mechanics, body position, technique basics"
+      },
+      "questionType": 6,
+      "citation": "World Croquet Federation Coaching Manual, Section 3.2",
+      "category": "Techniques and Skills"
+    },
+    {
+      "question": "What is the primary purpose of the 'jump shot' technique in croquet?",
+      "answers": [
+        {
+          "id": "ts5",
+          "answer": "To clear an intervening ball",
+          "correct": true
+        },
+        {
+          "id": "ts6",
+          "answer": "To achieve extra distance",
+          "correct": false
+        },
+        {
+          "id": "ts7",
+          "answer": "To confuse opponents",
+          "correct": false
+        },
+        {
+          "id": "ts8",
+          "answer": "To avoid boundary lines",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Jump Shot Technique",
+        "year": 2020,
+        "author": "World Croquet Federation",
+        "key_concepts": "Advanced shots, ball clearance, specialized techniques",
+        "summary": "The jump shot is specifically designed to clear an intervening ball by making the striker's ball jump over it, requiring precise technique and timing.",
+        "significance": "Advanced technique for specific tactical situations",
+        "related_concepts": "Advanced shots, tactical options, specialized skills"
+      },
+      "questionType": 6,
+      "citation": "World Croquet Federation Coaching Manual, Section 4.5",
+      "category": "Techniques and Skills"
+    },
+    {
+      "question": "What is the key principle of the 'follow-through' in croquet shots?",
+      "answers": [
+        {
+          "id": "ts9",
+          "answer": "Maintain direction after impact",
+          "correct": true
+        },
+        {
+          "id": "ts10",
+          "answer": "Stop at ball contact",
+          "correct": false
+        },
+        {
+          "id": "ts11",
+          "answer": "Change direction after impact",
+          "correct": false
+        },
+        {
+          "id": "ts12",
+          "answer": "Lift mallet after contact",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Shot Follow-Through",
+        "year": 2020,
+        "author": "World Croquet Federation",
+        "key_concepts": "Shot mechanics, follow-through, accuracy",
+        "summary": "Maintaining direction after impact is essential for shot accuracy and consistency, ensuring the ball travels on the intended line.",
+        "significance": "Fundamental principle of accurate shot execution",
+        "related_concepts": "Shot mechanics, accuracy, technique fundamentals"
+      },
+      "questionType": 6,
+      "citation": "World Croquet Federation Coaching Manual, Section 2.3",
+      "category": "Techniques and Skills"
     }
   ]
 }

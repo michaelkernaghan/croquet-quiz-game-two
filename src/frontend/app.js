@@ -389,5 +389,10 @@ function handleDubious() {
     handleNext();
 }
 
+function resetAllTimeScores() {
+    localStorage.setItem('croquetQuizAllTimeScores', JSON.stringify([]));
+    updateScoreboards();
+}
+
 // Initialize scoreboards
 updateScoreboards(); 
