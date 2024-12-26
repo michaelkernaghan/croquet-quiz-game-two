@@ -1,5 +1,14 @@
 const fs = require('fs');
 
+// Load dubious questions first
+let dubiousQuestions = [];
+try {
+    const dubiousData = JSON.parse(fs.readFileSync('./src/frontend/dubious-questions.json'));
+    dubiousQuestions = dubiousData.dubious_questions;
+} catch (error) {
+    console.error('Error loading dubious questions:', error);
+}
+
 // Known problematic questions to flag
 const problematicQuestions = [
     {
@@ -231,6 +240,21 @@ try {
     let validCount = 0;
     let invalidCount = 0;
     let warningCount = 0;
+    let dubiousCount = 0;
+
+    // Filter out dubious questions
+    questions.questions = questions.questions.filter(q => {
+        const isDubious = dubiousQuestions.some(dq => dq.question === q.question);
+        if (isDubious) {
+            dubiousCount++;
+            console.log(`\nRemoving dubious question: "${q.question}"`);
+            return false;
+        }
+        return true;
+    });
+
+    // Update question count
+    questions.questionCount = questions.questions.length;
 
     questions.questions.forEach((q, i) => {
         const warnings = checkForProblematicContent(q.question);
@@ -248,7 +272,12 @@ try {
     console.log(`- Valid questions: ${validCount}`);
     console.log(`- Invalid questions: ${invalidCount}`);
     console.log(`- Questions with warnings: ${warningCount}`);
-    console.log(`- Total questions: ${questions.questions.length}`);
+    console.log(`- Dubious questions removed: ${dubiousCount}`);
+    console.log(`- Total questions remaining: ${questions.questions.length}`);
+
+    // Save the updated questions file
+    fs.writeFileSync('./src/frontend/croquet-questions.json', JSON.stringify(questions, null, 2));
+    console.log('\nUpdated questions file saved.');
 
 } catch (error) {
     console.error('Error reading or parsing questions file:', error);
