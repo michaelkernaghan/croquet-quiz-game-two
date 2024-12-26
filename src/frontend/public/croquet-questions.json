@@ -1,7 +1,4 @@
 {
-  "version": "1.0.0",
-  "questionCount": 34,
-  "lastUpdated": "2024-12-26",
   "questions": [
     {
       "question": "What is the standard length of a croquet court?",
@@ -1186,80 +1183,6 @@
       "questionType": 4,
       "citation": "Expert Croquet Tactics, Article 4: The Opening",
       "category": "Strategy and Tactics"
-    },
-    {
-      "question": "Which country hosted the first international croquet match in 1925?",
-      "answers": [
-        {
-          "id": "h1",
-          "answer": "Australia",
-          "correct": true
-        },
-        {
-          "id": "h2",
-          "answer": "England",
-          "correct": false
-        },
-        {
-          "id": "h3",
-          "answer": "New Zealand",
-          "correct": false
-        },
-        {
-          "id": "h4",
-          "answer": "United States",
-          "correct": false
-        }
-      ],
-      "correctTheory": {
-        "title": "First International Match",
-        "year": 1925,
-        "author": "Croquet Association",
-        "key_concepts": "International competition, historical events",
-        "summary": "The first international croquet match was hosted in Melbourne, Australia in 1925, marking the beginning of the MacRobertson Shield competition.",
-        "significance": "Established international competitive croquet",
-        "related_concepts": "International competition, tournament history"
-      },
-      "questionType": 3,
-      "citation": "MacRobertson Shield Official Records, Croquet Association Archives",
-      "category": "History"
-    },
-    {
-      "question": "Who was the first player to complete a sextuple peel in tournament play?",
-      "answers": [
-        {
-          "id": "fm1",
-          "answer": "John Solomon",
-          "correct": true
-        },
-        {
-          "id": "fm2",
-          "answer": "Pat Cotter",
-          "correct": false
-        },
-        {
-          "id": "fm3",
-          "answer": "Keith Wylie",
-          "correct": false
-        },
-        {
-          "id": "fm4",
-          "answer": "Reg Bamford",
-          "correct": false
-        }
-      ],
-      "correctTheory": {
-        "title": "First Tournament Sextuple",
-        "year": 1956,
-        "author": "Croquet Association",
-        "key_concepts": "Tournament achievements, historical records",
-        "summary": "John Solomon achieved the first tournament sextuple peel at the 1956 Open Championship, setting a new standard for advanced play.",
-        "significance": "Major milestone in competitive croquet history",
-        "related_concepts": "Advanced tactics, tournament achievements"
-      },
-      "questionType": 7,
-      "citation": "Croquet Association Championship Records, 1956",
-      "category": "Famous Matches and Players"
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "article1": {
+    "1.1": "images/article1/image_105.gif",
+    "1.5": "images/article1/image_102.gif",
+    "1.7": "images/article1/image_10.gif",
+    "1.8": "images/article1/image_11.gif",
+    "1.9": "images/article1/image_12.gif",
+    "1.12": "images/article1/image_15.gif",
+    "1.13": "images/article1/image_16.gif",
+    "1.25": "images/article1/image_28.gif",
+    "1.26": "images/article1/image_29.gif",
+    "1.32": "images/article1/image_35.gif",
+    "1.33": "images/article1/image_36.gif",
+    "1.35": "images/article1/image_38.gif",
+    "1.36": "images/article1/image_39.gif",
+    "1.40": "images/article1/image_43.gif",
+    "1.41": "images/article1/image_44.gif",
+    "1.42": "images/article1/image_45.gif",
+    "1.43": "images/article1/image_46.gif",
+    "1.45": "images/article1/image_48.gif",
+    "1.46": "images/article1/image_49.gif",
+    "1.47": "images/article1/image_50.gif",
+    "1.48": "images/article1/image_51.gif",
+    "1.55": "images/article1/image_58.gif",
+    "1.56": "images/article1/image_59.gif",
+    "1.67": "images/article1/image_70.gif",
+    "1.68": "images/article1/image_71.gif",
+    "1.71": "images/article1/image_74.gif",
+    "1.72": "images/article1/image_75.gif",
+    "1.73": "images/article1/image_76.gif",
+    "1.76": "images/article1/image_79.gif",
+    "1.84": "images/article1/image_87.gif",
+    "1.85": "images/article1/image_88.gif",
+    "1.89": "images/article1/image_92.gif",
+    "1.90": "images/article1/image_93.gif",
+    "1.97": "images/article1/image_100.gif",
+    "1.98": "images/article1/image_101.gif",
+    "1.99": "images/article1/image_103.gif",
+    "1.101": "images/article1/image_106.gif"
+  },
+  "article3": {
+    "3.9": "images/article3/image_12.gif",
+    "3.10": "images/article3/image_13.gif"
+  },
+  "article4": {
+    "4.4": "images/article4/image_7.gif",
+    "4.5": "images/article4/image_8.gif",
+    "4.11": "images/article4/image_14.gif",
+    "4.12": "images/article4/image_15.gif"
+  }
+} 

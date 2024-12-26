@@ -17,13 +17,31 @@ const achievementColors = {
     'David Openshaw': '#FFB6C1'     // Light pink
 };
 
+// Load Wylie figure mapping
+let wylieFigureMap = {};
+fetch('wylie-figure-map.json')
+    .then(response => response.json())
+    .then(data => {
+        wylieFigureMap = data;
+        console.log('Loaded Wylie figure mapping');
+    })
+    .catch(error => {
+        console.error('Error loading Wylie figure mapping:', error);
+    });
+
 // Fetch questions from JSON file
 fetch('croquet-questions.json')
     .then(response => response.json())
     .then(data => {
+        // Validate the questions file
+        if (!data.version || !data.questionCount || data.questionCount !== data.questions.length) {
+            console.error('Invalid questions file format');
+            alert('Error: Invalid questions file format. Please contact the administrator.');
+            return;
+        }
         allQuestions = data.questions;
         questionsLoaded = true;
-        console.log(`Loaded ${allQuestions.length} total questions`);
+        console.log(`Loaded ${allQuestions.length} total questions (version ${data.version})`);
     })
     .catch(error => {
         console.error('Error loading questions:', error);
@@ -115,11 +133,30 @@ function showQuestion(question) {
     const imageContainer = document.getElementById('question-image-container');
     const image = document.getElementById('question-image');
     
-    if (question.image && question.image.path) {
-        // Use path relative to the frontend directory
-        const imagePath = question.image.path.startsWith('/') ? 
-            question.image.path.slice(1) : 
-            question.image.path;
+    if (question.image) {
+        let imagePath;
+        
+        // Check if this is a Wylie figure reference
+        if (question.image.wylieFigure && wylieFigureMap) {
+            const [article, figure] = question.image.wylieFigure.split('.');
+            const articleKey = `article${article}`;
+            if (wylieFigureMap[articleKey] && wylieFigureMap[articleKey][question.image.wylieFigure]) {
+                imagePath = wylieFigureMap[articleKey][question.image.wylieFigure];
+            } else {
+                console.error('Could not find Wylie figure:', question.image.wylieFigure);
+                imageContainer.style.display = 'none';
+                return;
+            }
+        } else if (question.image.path) {
+            // Use direct path
+            imagePath = question.image.path.startsWith('/') ? 
+                question.image.path.slice(1) : 
+                question.image.path;
+        } else {
+            console.error('No valid image reference found:', question.image);
+            imageContainer.style.display = 'none';
+            return;
+        }
         
         console.log('Attempting to load image:', imagePath);
         
@@ -135,12 +172,11 @@ function showQuestion(question) {
             imageContainer.style.display = 'none';
         };
         
-        // Use the actual path from the question object
         image.src = imagePath;
         image.alt = "Position diagram";
         imageContainer.style.display = 'block';
     } else {
-        console.log('No image path provided for question:', question);
+        console.log('No image provided for question:', question);
         imageContainer.style.display = 'none';
     }
 
