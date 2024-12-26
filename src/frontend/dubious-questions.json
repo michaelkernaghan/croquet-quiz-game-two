@@ -17,6 +17,18 @@
       "questionId": 7,
       "timestamp": "2024-12-26T16:54:14.493Z",
       "category": "Rules and Regulations"
+    },
+    {
+      "question": "According to Wylie, what is the key principle for positioning ball U in the standard opening?",
+      "questionId": 2,
+      "timestamp": "2024-12-26T18:52:30.093Z",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What is the maximum width of a mallet head allowed in tournament play?",
+      "questionId": 4,
+      "timestamp": "2024-12-26T18:52:44.444Z",
+      "category": "Equipment"
     }
   ]
 }

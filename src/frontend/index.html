@@ -42,10 +42,10 @@
             <div id="quizContent" style="display: none;">
                 <div class="quiz-header">
                     <div class="question-counter">
-                        Question <span id="currentQuestion">1</span>/<span id="totalQuestions">10</span>
+                        Question <span id="currentQuestion">1</span>/<span id="totalQuestions">13</span>
                     </div>
                     <div class="current-score">
-                        Score: <span id="currentScore">0</span>/<span id="currentTotal">0</span>
+                        Hoop: <span id="currentScore">0</span>
                     </div>
                 </div>
                 <div id="question-text"></div>
@@ -66,8 +66,11 @@
 
             <div id="results" style="display: none;">
                 <h2>Quiz Complete!</h2>
-                <p>Your score: <span id="score"></span></p>
-                <p>Your rating: <span id="rating"></span></p>
+                <div class="score-display">
+                    <span>You reached: </span>
+                    <span class="score-number" id="score"></span>
+                </div>
+                <div class="achievement-status" id="rating"></div>
                 <button onclick="restartQuiz()" class="restart-button">Try Again</button>
             </div>
         </div>

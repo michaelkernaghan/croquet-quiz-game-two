@@ -2,19 +2,26 @@ let allQuestions = [];
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-const QUESTIONS_PER_GAME = 10;
+const QUESTIONS_PER_GAME = 13;
 let questionsLoaded = false;
+
+// Scoring sequence for croquet hoops
+const hoopScoring = [
+    '1', '2', '3', '4', '5', '6',
+    '1B', '2B', '3B', '4B',
+    'Pn', 'R', 'Pg', 'Box'
+];
 
 // Add color scheme for different achievement levels
 const achievementColors = {
-    'Robert Fulford': '#FFD700',    // Gold
-    'Reg Bamford': '#C0C0C0',       // Silver
-    'John Solomon': '#CD7F32',      // Bronze
-    'Keith Wylie': '#90EE90',       // Light green
-    'Chris Clarke': '#87CEEB',      // Sky blue
-    'John Prince': '#DDA0DD',       // Plum
-    'Pat Cotter': '#F0E68C',        // Khaki
-    'David Openshaw': '#FFB6C1'     // Light pink
+    'Box': '#FFD700',      // Gold
+    'Pg': '#C0C0C0',      // Silver
+    'R': '#CD7F32',       // Bronze
+    '4B': '#90EE90',      // Light green
+    '3B': '#87CEEB',      // Sky blue
+    '2B': '#DDA0DD',      // Plum
+    '1B': '#F0E68C',      // Khaki
+    '6': '#FFB6C1'        // Light pink
 };
 
 // Load Wylie figure mapping
@@ -88,9 +95,11 @@ function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     
-    // Initialize score and update display
+    // Initialize score display
     document.getElementById('currentScore').textContent = '0';
-    document.getElementById('currentTotal').textContent = '0';
+    // Update question counter
+    document.getElementById('currentQuestion').textContent = '1';
+    document.getElementById('totalQuestions').textContent = QUESTIONS_PER_GAME.toString();
 
     // Hide start screen elements
     document.getElementById('startQuiz').style.display = 'none';
@@ -102,6 +111,9 @@ function startQuiz() {
 }
 
 function showQuestion(question) {
+    // Update question counter
+    document.getElementById('currentQuestion').textContent = (currentQuestionIndex + 1).toString();
+    
     // Remove any reference to Wylie in the question text
     const questionText = question.question.replace(/from Wylie's text|according to Wylie,?/gi, '');
     
@@ -129,6 +141,9 @@ function showQuestion(question) {
     
     document.getElementById('question-text').innerHTML = displayText;
     
+    // Reset the current score display to just show the number
+    document.getElementById('currentScore').textContent = score.toString();
+
     // Handle image if present
     const imageContainer = document.getElementById('question-image-container');
     const image = document.getElementById('question-image');
@@ -207,7 +222,6 @@ function selectAnswer(selectedIndex) {
         button.disabled = true;
         if (index === correctAnswerIndex) {
             button.classList.add('correct');
-            // Show explanation for correct answer
             const explanationDiv = document.createElement('div');
             explanationDiv.className = 'answer-explanation';
             let explanationText = `Source: ${currentQuestion.citation}`;
@@ -223,11 +237,26 @@ function selectAnswer(selectedIndex) {
 
     if (selectedIndex === correctAnswerIndex) {
         score++;
+        // Update score display with "You made hoop X" after correct answer
+        const currentHoop = hoopScoring[score - 1];
+        let hoopText;
+        if (currentHoop === 'Pn') {
+            hoopText = 'Made Penultimate!';
+        } else if (currentHoop === 'R') {
+            hoopText = 'Made Rover!';
+        } else if (currentHoop === 'Pg') {
+            hoopText = 'Made Peg!';
+        } else if (currentHoop === 'Box') {
+            hoopText = 'Finished the course!';
+        } else {
+            hoopText = `Made hoop ${currentHoop}`;
+        }
+        // Add a slight delay to show the achievement after the answer verification
+        setTimeout(() => {
+            document.getElementById('currentScore').textContent = hoopText;
+        }, 500);
     }
-    document.getElementById('currentScore').textContent = score;
-    document.getElementById('currentTotal').textContent = currentQuestionIndex + 1;
 
-    // Show both next and dubious buttons
     document.getElementById('nextButton').style.display = 'inline-block';
     document.getElementById('dubiousButton').style.display = 'inline-block';
 }
@@ -245,64 +274,53 @@ function showResults() {
     document.getElementById('quizContent').style.display = 'none';
     document.getElementById('results').style.display = 'block';
     
-    const rating = getRating(score);
+    const achievement = hoopScoring[score - 1] || '0';
     
-    // Create results HTML
-    const resultsHTML = `
-        <h2>Quiz Complete!</h2>
-        <div class="score-display">
-            <span>Your final score: </span>
-            <span class="score-number">${score}/${QUESTIONS_PER_GAME}</span>
-        </div>
-        <div class="achievement-status">
-            You have achieved ${rating} status!
-        </div>
-        <button onclick="restartQuiz()" class="play-again-button">Play Again</button>
-    `;
-    
-    document.getElementById('results').innerHTML = resultsHTML;
+    // Update the existing elements instead of replacing the entire HTML
+    document.getElementById('score').textContent = achievement;
+    document.getElementById('rating').textContent = 
+        achievement === 'Box' ? 'Congratulations! You completed the full course!' : 
+        achievement === '0' ? 'Keep practicing!' : 
+        `You made it to hoop ${achievement}!`;
     
     // Save score
     const name = document.getElementById('nameInput').value;
-    saveScore(name, score);
+    saveScore(name, achievement);
     updateScoreboards();
 }
 
-function getRating(score) {
-    const percentage = (score / QUESTIONS_PER_GAME) * 100;
-    if (percentage >= 90) return 'Robert Fulford';      // World Champion level
-    if (percentage >= 80) return 'Reg Bamford';        // Grandmaster level
-    if (percentage >= 70) return 'John Solomon';       // Master level
-    if (percentage >= 60) return 'Keith Wylie';        // Expert level
-    if (percentage >= 50) return 'Chris Clarke';       // Advanced level
-    if (percentage >= 40) return 'John Prince';        // Intermediate level
-    if (percentage >= 30) return 'Pat Cotter';         // Improving level
-    return 'David Openshaw';                           // Beginner level
-}
-
-function saveScore(name, score) {
+function saveScore(name, achievement) {
     const today = new Date().toISOString().split('T')[0];
-    const rating = getRating(score);
+    let displayAchievement;
+    
+    if (achievement === 'Pn') {
+        displayAchievement = 'made Penultimate';
+    } else if (achievement === 'R') {
+        displayAchievement = 'made Rover';
+    } else if (achievement === 'Pg') {
+        displayAchievement = 'made Peg';
+    } else if (achievement === 'Box') {
+        displayAchievement = 'finished the course';
+    } else if (achievement === '0') {
+        displayAchievement = 'started playing';
+    } else {
+        displayAchievement = `made hoop ${achievement}`;
+    }
+
     const scoreData = {
         name,
-        score,
-        rating,
-        date: today
+        achievement: displayAchievement,
+        date: today,
+        rawAchievement: achievement // Keep the raw achievement for sorting
     };
 
     // Save to today's scores
-    let todayScores = JSON.parse(localStorage.getItem('croquetQuizScores')) || {};
-    if (!todayScores[today]) {
-        todayScores[today] = [];
-    }
-    todayScores[today].push(scoreData);
+    let todayScores = {};
+    todayScores[today] = [scoreData];
     localStorage.setItem('croquetQuizScores', JSON.stringify(todayScores));
 
     // Update all-time high scores
-    let allTimeScores = JSON.parse(localStorage.getItem('croquetQuizAllTimeScores')) || [];
-    allTimeScores.push(scoreData);
-    allTimeScores.sort((a, b) => b.score - a.score);
-    allTimeScores = allTimeScores.slice(0, 10); // Keep only top 10
+    let allTimeScores = [scoreData];
     localStorage.setItem('croquetQuizAllTimeScores', JSON.stringify(allTimeScores));
 }
 
@@ -313,11 +331,11 @@ function updateScoreboards() {
     const todayScoresList = todayScores[today] || [];
     
     const todayScoresHtml = todayScoresList
-        .sort((a, b) => b.score - a.score)
+        .sort((a, b) => hoopScoring.indexOf(b.rawAchievement) - hoopScoring.indexOf(a.rawAchievement))
         .map(score => {
-            const color = achievementColors[score.rating];
+            const color = achievementColors[score.rawAchievement] || '#333333';
             return `<div style="color: ${color}; font-weight: bold;">
-                ${score.name}: ${score.score}/${QUESTIONS_PER_GAME}
+                ${score.name}: ${score.achievement}
             </div>`;
         })
         .join('');
@@ -327,10 +345,11 @@ function updateScoreboards() {
     // Update all-time scores
     const allTimeScores = JSON.parse(localStorage.getItem('croquetQuizAllTimeScores')) || [];
     const allTimeScoresHtml = allTimeScores
+        .sort((a, b) => hoopScoring.indexOf(b.rawAchievement) - hoopScoring.indexOf(a.rawAchievement))
         .map(score => {
-            const color = achievementColors[score.rating];
+            const color = achievementColors[score.rawAchievement] || '#333333';
             return `<div style="color: ${color}; font-weight: bold;">
-                ${score.name}: ${score.score}/${QUESTIONS_PER_GAME}
+                ${score.name}: ${score.achievement}
             </div>`;
         })
         .join('');
@@ -396,3 +415,7 @@ function resetAllTimeScores() {
 
 // Initialize scoreboards
 updateScoreboards(); 
+
+// Clear existing scores when the page loads
+localStorage.removeItem('croquetQuizScores');
+localStorage.removeItem('croquetQuizAllTimeScores'); 
