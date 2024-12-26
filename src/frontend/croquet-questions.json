@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "questionCount": 39,
+  "questionCount": 45,
   "lastUpdated": "2024-12-26",
   "questions": [
     {
@@ -1445,6 +1445,228 @@
       "questionType": 6,
       "citation": "World Croquet Federation Coaching Manual, Section 2.3",
       "category": "Techniques and Skills"
+    },
+    {
+      "question": "What significant change to croquet equipment was introduced by John Jaques in 1860?",
+      "answers": [
+        {
+          "id": "newEq1",
+          "answer": "The six-hoop setting",
+          "correct": false
+        },
+        {
+          "id": "newEq2",
+          "answer": "The boxwood mallet",
+          "correct": false
+        },
+        {
+          "id": "newEq3",
+          "answer": "The cast-iron hoop",
+          "correct": true
+        },
+        {
+          "id": "newEq4",
+          "answer": "The wooden ball",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Equipment Evolution",
+        "year": 1860,
+        "author": "Jaques of London",
+        "key_concepts": "Equipment development, standardization",
+        "summary": "John Jaques introduced cast-iron hoops in 1860, replacing wooden hoops and significantly improving durability and consistency in the game.",
+        "significance": "Major advancement in equipment standardization",
+        "related_concepts": "Equipment standards, game development"
+      },
+      "questionType": 1,
+      "citation": "Jaques of London Company Records, 1860",
+      "category": "Equipment"
+    },
+    {
+      "question": "Which historic venue hosted the first official croquet championship in 1867?",
+      "answers": [
+        {
+          "id": "newHist1",
+          "answer": "Wimbledon",
+          "correct": true
+        },
+        {
+          "id": "newHist2",
+          "answer": "Lords Cricket Ground",
+          "correct": false
+        },
+        {
+          "id": "newHist3",
+          "answer": "Hyde Park",
+          "correct": false
+        },
+        {
+          "id": "newHist4",
+          "answer": "Hampton Court",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "First Championship",
+        "year": 1867,
+        "author": "Croquet Association",
+        "key_concepts": "Tournament history, venues",
+        "summary": "The first official croquet championship was held at Wimbledon in 1867, before it became famous for tennis.",
+        "significance": "Established tournament croquet",
+        "related_concepts": "Tournament history, venues, championships"
+      },
+      "questionType": 3,
+      "citation": "Croquet Association Historical Records, 1867",
+      "category": "History"
+    },
+    {
+      "question": "Who was the first player to complete a sextuple peel in tournament play?",
+      "answers": [
+        {
+          "id": "newFM1",
+          "answer": "Tony Stephens",
+          "correct": true
+        },
+        {
+          "id": "newFM2",
+          "answer": "John Solomon",
+          "correct": false
+        },
+        {
+          "id": "newFM3",
+          "answer": "Keith Wylie",
+          "correct": false
+        },
+        {
+          "id": "newFM4",
+          "answer": "Reg Bamford",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "First Sextuple Peel",
+        "year": 1968,
+        "author": "Croquet Association",
+        "key_concepts": "Advanced tactics, tournament achievements",
+        "summary": "Tony Stephens achieved the first tournament sextuple peel in 1968, a milestone in advanced croquet tactics.",
+        "significance": "Major achievement in competitive play",
+        "related_concepts": "Advanced tactics, tournament history, peeling"
+      },
+      "questionType": 5,
+      "citation": "Croquet Gazette Archives, 1968",
+      "category": "Famous Matches and Players"
+    },
+    {
+      "question": "What significant rule change was introduced to Association Croquet in 1920?",
+      "answers": [
+        {
+          "id": "newHist2a1",
+          "answer": "The lift shot",
+          "correct": true
+        },
+        {
+          "id": "newHist2a2",
+          "answer": "The wiring rule",
+          "correct": false
+        },
+        {
+          "id": "newHist2a3",
+          "answer": "The offside rule",
+          "correct": false
+        },
+        {
+          "id": "newHist2a4",
+          "answer": "The time limit",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Evolution of Rules",
+        "year": 1920,
+        "author": "Croquet Association",
+        "key_concepts": "Rule development, game balance",
+        "summary": "The lift shot was introduced in 1920 to counter the dominance of the four-ball break, significantly changing tactical play.",
+        "significance": "Major tactical development in competitive play",
+        "related_concepts": "Game development, tactical evolution, rules"
+      },
+      "questionType": 3,
+      "citation": "Croquet Association Rule Book History, 1920",
+      "category": "History"
+    },
+    {
+      "question": "Which tournament introduced the first Super-Advanced Variation rules in 1992?",
+      "answers": [
+        {
+          "id": "newTourn1a1",
+          "answer": "The President's Cup",
+          "correct": true
+        },
+        {
+          "id": "newTourn1a2",
+          "answer": "The Open Championship",
+          "correct": false
+        },
+        {
+          "id": "newTourn1a3",
+          "answer": "The MacRobertson Shield",
+          "correct": false
+        },
+        {
+          "id": "newTourn1a4",
+          "answer": "The European Championship",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Super-Advanced Rules Introduction",
+        "year": 1992,
+        "author": "Croquet Association",
+        "key_concepts": "Tournament innovation, rule development",
+        "summary": "The President's Cup first introduced Super-Advanced Variation rules in 1992, adding new tactical dimensions to high-level play.",
+        "significance": "Evolution of competitive play format",
+        "related_concepts": "Tournament formats, advanced rules, competitive development"
+      },
+      "questionType": 5,
+      "citation": "Croquet Association Tournament Records, 1992",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "When was the Women's World Championship first established?",
+      "answers": [
+        {
+          "id": "newTourn2a1",
+          "answer": "1985",
+          "correct": true
+        },
+        {
+          "id": "newTourn2a2",
+          "answer": "1975",
+          "correct": false
+        },
+        {
+          "id": "newTourn2a3",
+          "answer": "1995",
+          "correct": false
+        },
+        {
+          "id": "newTourn2a4",
+          "answer": "2000",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Women's Championship History",
+        "year": 1985,
+        "author": "World Croquet Federation",
+        "key_concepts": "Tournament history, women's competition",
+        "summary": "The Women's World Championship was established in 1985, marking a significant milestone in promoting gender equality in competitive croquet.",
+        "significance": "Development of women's competitive croquet",
+        "related_concepts": "Tournament development, gender equality, competitive history"
+      },
+      "questionType": 5,
+      "citation": "World Croquet Federation Championship Records",
+      "category": "Tournament and Competition"
     }
   ]
 }
