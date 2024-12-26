@@ -1,0 +1,46 @@
+{
+  "dubious_questions": [
+    {
+      "question": "In tournament play with time limits, what is the recommended lead in points before attempting a triple peel?",
+      "questionId": 0,
+      "timestamp": "2024-12-25T18:39:06.106Z",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "In the standard opening, what is the recommended counter to the 'Duffer tice'?",
+      "questionId": 4,
+      "timestamp": "2024-12-25T18:59:36.709Z",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "According to Wylie, what is the recommended position for ball U in the standard opening?",
+      "questionId": 2,
+      "timestamp": "2024-12-26T00:03:24.125Z",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "In this position from Wylie's text on triple peels, what is the recommended shot selection when Y is for 3b and croqueting U, with R for 4b?",
+      "questionId": 0,
+      "timestamp": "2024-12-26T01:50:47.310Z",
+      "category": "Triple Peels"
+    },
+    {
+      "question": "According to Wylie, what is the recommended position for ball U in the standard opening?",
+      "questionId": 1,
+      "timestamp": "2024-12-26T02:21:21.527Z",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "In this position, what is the recommended shot selection for continuing the break?",
+      "questionId": 0,
+      "timestamp": "2024-12-26T02:40:23.484Z",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What is the correct distance between hoops 1 and 2 on a standard court?",
+      "questionId": 3,
+      "timestamp": "2024-12-26T02:50:57.336Z",
+      "category": "Rules and Regulations"
+    }
+  ]
+}

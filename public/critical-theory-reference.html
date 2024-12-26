@@ -1,0 +1,1210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Theory Historical Reference</title>
+    <style>
+        :root {
+            --primary-color: #7D6EFF;
+            --secondary-color: #FF61D8;
+            --text-color: #2A2A2A;
+            --bg-color: #F5F5F7;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--bg-color);
+        }
+
+        h1 {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .meta-info {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+
+        .theorist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .theorist-card {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s ease;
+        }
+
+        .theorist-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .theorist-name {
+            color: var(--primary-color);
+            font-size: 1.2em;
+            margin: 0 0 10px 0;
+        }
+
+        .active-period {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .major-works {
+            margin-top: 15px;
+        }
+
+        .work-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+            padding: 5px 0;
+            border-bottom: 1px solid #f5f5f5;
+        }
+
+        .work-year {
+            color: var(--secondary-color);
+            font-weight: 500;
+            margin-left: 15px;
+        }
+
+        .category-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid var(--bg-color);
+        }
+
+        .category-title {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .category-card {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .category-card h3 {
+            color: var(--secondary-color);
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+        }
+
+        .category-card p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid var(--bg-color);
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .search-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        #search {
+            width: 100%;
+            max-width: 500px;
+            padding: 12px 20px;
+            border: 2px solid var(--bg-color);
+            border-radius: 25px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        #search:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(125, 110, 255, 0.1);
+        }
+
+        .filter-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+
+        .filter-tag {
+            background: var(--bg-color);
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-tag:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .filter-tag.active {
+            background: var(--primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Critical Theory Historical Reference</h1>
+            <div class="meta-info">
+                Compiled by Claude 3.5 Sonnet (anthropic-ai/claude-3-sonnet@20240229)<br>
+                Last Updated: March 2024
+            </div>
+            <p>A comprehensive reference of critical theorists, their active periods, and major works.</p>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="search" placeholder="Search theorists, works, or concepts...">
+            <div class="filter-tags">
+                <button class="filter-tag active" data-period="all">All</button>
+                <button class="filter-tag" data-period="1900-1950">1900-1950</button>
+                <button class="filter-tag" data-period="1950-1980">1950-1980</button>
+                <button class="filter-tag" data-period="1980-2000">1980-2000</button>
+                <button class="filter-tag" data-period="2000-present">2000-Present</button>
+            </div>
+        </div>
+
+        <div class="theorist-grid">
+            
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Walter Benjamin</h3>
+                    <div class="active-period">
+                        Active: 1914 - 1940
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Work of Art in the Age of Mechanical Reproduction</span>
+                                <span class="work-year">1935</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Martin Heidegger</h3>
+                    <div class="active-period">
+                        Active: 1913 - 1976
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Origin of the Work of Art</span>
+                                <span class="work-year">1936</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Clement Greenberg</h3>
+                    <div class="active-period">
+                        Active: 1939 - 1994
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Modernist Painting</span>
+                                <span class="work-year">1961</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Guy Debord</h3>
+                    <div class="active-period">
+                        Active: 1957 - 1994
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Society of the Spectacle</span>
+                                <span class="work-year">1967</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Lev Manovich</h3>
+                    <div class="active-period">
+                        Active: 1986 - Present
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Language of New Media</span>
+                                <span class="work-year">2001</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Nicolas Bourriaud</h3>
+                    <div class="active-period">
+                        Active: 1990 - Present
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Relational Aesthetics</span>
+                                <span class="work-year">1998</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Herbert Marcuse</h3>
+                    <div class="active-period">
+                        Active: 1932 - 1979
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>One-Dimensional Man</span>
+                                <span class="work-year">1964</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">John Berger</h3>
+                    <div class="active-period">
+                        Active: 1950 - 2017
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Ways of Seeing</span>
+                                <span class="work-year">1972</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Roland Barthes</h3>
+                    <div class="active-period">
+                        Active: 1950 - 1980
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Death of the Author</span>
+                                <span class="work-year">1967</span>
+                            </div>
+                          
+                            <div class="work-item">
+                                <span>Camera Lucida</span>
+                                <span class="work-year">1980</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Jean Baudrillard</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2007
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Simulacra and Simulation</span>
+                                <span class="work-year">1981</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Linda Nochlin</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2017
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Why Have There Been No Great Women Artists?</span>
+                                <span class="work-year">1971</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Hans Haacke</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Shapolsky et al.</span>
+                                <span class="work-year">1971</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Marcel Duchamp</h3>
+                    <div class="active-period">
+                        Active: 1910 - 1968
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Fountain</span>
+                                <span class="work-year">1917</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Friedrich Kittler</h3>
+                    <div class="active-period">
+                        Active: 1970 - 2011
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Discourse Networks</span>
+                                <span class="work-year">1985</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">John Cage</h3>
+                    <div class="active-period">
+                        Active: 1930 - 1992
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Silence</span>
+                                <span class="work-year">1961</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Brian O'Doherty</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Inside the White Cube</span>
+                                <span class="work-year">1976</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Rosalind Krauss</h3>
+                    <div class="active-period">
+                        Active: 1965 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Optical Unconscious</span>
+                                <span class="work-year">1993</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">John Maeda</h3>
+                    <div class="active-period">
+                        Active: 1990 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Creative Code</span>
+                                <span class="work-year">2004</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Claire Bishop</h3>
+                    <div class="active-period">
+                        Active: 2000 - Present
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Artificial Hells</span>
+                                <span class="work-year">2012</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Marina Abramović</h3>
+                    <div class="active-period">
+                        Active: 1970 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Walk Through Walls</span>
+                                <span class="work-year">2016</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Erwin Panofsky</h3>
+                    <div class="active-period">
+                        Active: 1920 - 1968
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Studies in Iconology</span>
+                                <span class="work-year">1939</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Sol LeWitt</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2007
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Paragraphs on Conceptual Art</span>
+                                <span class="work-year">1967</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Gene Youngblood</h3>
+                    <div class="active-period">
+                        Active: 1965 - 2021
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Expanded Cinema</span>
+                                <span class="work-year">1970</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Jack Burnham</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2019
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Beyond Modern Sculpture</span>
+                                <span class="work-year">1968</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Thierry de Duve</h3>
+                    <div class="active-period">
+                        Active: 1970 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Kant After Duchamp</span>
+                                <span class="work-year">1996</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Marisa Olson</h3>
+                    <div class="active-period">
+                        Active: 2000 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Post-Internet Art</span>
+                                <span class="work-year">2008</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Jay David Bolter & Richard Grusin</h3>
+                    <div class="active-period">
+                        Active: 1985 - Present
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Remediation</span>
+                                <span class="work-year">1999</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Oliver Grau</h3>
+                    <div class="active-period">
+                        Active: 1990 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Virtual Art</span>
+                                <span class="work-year">2003</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Alexander R. Galloway</h3>
+                    <div class="active-period">
+                        Active: 2000 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Protocol</span>
+                                <span class="work-year">2004</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Jacques Rancière</h3>
+                    <div class="active-period">
+                        Active: 1965 - Present
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Politics of Aesthetics</span>
+                                <span class="work-year">2004</span>
+                            </div>
+                          
+                            <div class="work-item">
+                                <span>The Ignorant Schoolmaster</span>
+                                <span class="work-year">1987</span>
+                            </div>
+                          
+                            <div class="work-item">
+                                <span>The Emancipated Spectator</span>
+                                <span class="work-year">2009</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Casey Reas</h3>
+                    <div class="active-period">
+                        Active: 2000 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Processing</span>
+                                <span class="work-year">2007</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Siegfried Zielinski</h3>
+                    <div class="active-period">
+                        Active: 1980 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Deep Time of the Media</span>
+                                <span class="work-year">2006</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Roy Ascott</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Telematic Embrace</span>
+                                <span class="work-year">2003</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">D.N. Rodowick</h3>
+                    <div class="active-period">
+                        Active: 1980 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Virtual Life of Film</span>
+                                <span class="work-year">2007</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Thomas Elsaesser</h3>
+                    <div class="active-period">
+                        Active: 1970 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Film Theory: An Introduction</span>
+                                <span class="work-year">2002</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Wendy Hui Kyong Chun</h3>
+                    <div class="active-period">
+                        Active: 2000 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Control and Freedom</span>
+                                <span class="work-year">2006</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">N. Katherine Hayles</h3>
+                    <div class="active-period">
+                        Active: 1980 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>How We Became Posthuman</span>
+                                <span class="work-year">1999</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">George Maciunas</h3>
+                    <div class="active-period">
+                        Active: 1950 - 1978
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Fluxus Manifesto</span>
+                                <span class="work-year">1963</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Manfred Mohr</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Artificiata I</span>
+                                <span class="work-year">1969</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Mikhail Bakhtin</h3>
+                    <div class="active-period">
+                        Active: 1920 - 1975
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Rabelais and His World</span>
+                                <span class="work-year">1965</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Frank Popper</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Origins and Development of Kinetic Art</span>
+                                <span class="work-year">1968</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Max Bense</h3>
+                    <div class="active-period">
+                        Active: 1950 - 1990
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Aesthetica</span>
+                                <span class="work-year">1965</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Edward Shanken</h3>
+                    <div class="active-period">
+                        Active: 1990 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Art and Electronic Media</span>
+                                <span class="work-year">2009</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Victor Margolin</h3>
+                    <div class="active-period">
+                        Active: 1970 - 2019
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>World History of Design</span>
+                                <span class="work-year">2015</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Nick Srnicek</h3>
+                    <div class="active-period">
+                        Active: 2010 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Platform Capitalism</span>
+                                <span class="work-year">2016</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Theodor Adorno</h3>
+                    <div class="active-period">
+                        Active: 1931 - 1969
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Dialectic of Enlightenment</span>
+                                <span class="work-year">1944</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Jasia Reichardt</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Cybernetic Serendipity</span>
+                                <span class="work-year">1968</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Alexei Shulgin</h3>
+                    <div class="active-period">
+                        Active: 1990 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Form Art</span>
+                                <span class="work-year">1997</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Yael Kanarek</h3>
+                    <div class="active-period">
+                        Active: 1995 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>World of Awe</span>
+                                <span class="work-year">2000</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Stephen Ramsay</h3>
+                    <div class="active-period">
+                        Active: 2000 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Reading Machines</span>
+                                <span class="work-year">2011</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">John F. Simon Jr.</h3>
+                    <div class="active-period">
+                        Active: 1990 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Every Icon</span>
+                                <span class="work-year">1997</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Steven Shaviro</h3>
+                    <div class="active-period">
+                        Active: 1985 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Connected</span>
+                                <span class="work-year">2003</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Ian Goodfellow</h3>
+                    <div class="active-period">
+                        Active: 2010 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Generative Adversarial Networks</span>
+                                <span class="work-year">2014</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Margaret Boden</h3>
+                    <div class="active-period">
+                        Active: 1970 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Creative Mind</span>
+                                <span class="work-year">1990</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Anna Ridler</h3>
+                    <div class="active-period">
+                        Active: 2015 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Mosaic Virus</span>
+                                <span class="work-year">2019</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Herbert W. Franke</h3>
+                    <div class="active-period">
+                        Active: 1950 - 2022
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>Computer Graphics</span>
+                                <span class="work-year">1971</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Jussi Parikka</h3>
+                    <div class="active-period">
+                        Active: 2000 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>What is Media Archaeology?</span>
+                                <span class="work-year">2012</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Raymond Bellour</h3>
+                    <div class="active-period">
+                        Active: 1960 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Analysis of Film</span>
+                                <span class="work-year">2000</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">David Norman Rodowick</h3>
+                    <div class="active-period">
+                        Active: 1980 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The Virtual Life of Film</span>
+                                <span class="work-year">2007</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+                <div class="theorist-card">
+                    <h3 class="theorist-name">Allucquère Rosanne Stone</h3>
+                    <div class="active-period">
+                        Active: 1980 - 2024
+                    </div>
+                    <div class="major-works">
+                        
+                            <div class="work-item">
+                                <span>The War of Desire and Technology</span>
+                                <span class="work-year">1995</span>
+                            </div>
+                          
+                    </div>
+                </div>
+              
+        </div>
+
+        <div class="category-section">
+            <h2 class="category-title">Theoretical Categories</h2>
+            
+                <div class="category-card">
+                    <h3>MEDIA ARCHAEOLOGY</h3>
+                    <p>Jussi Parikka, Siegfried Zielinski, Friedrich Kittler</p>
+                </div>
+              
+                <div class="category-card">
+                    <h3>SOFTWARE STUDIES</h3>
+                    <p>Wendy Hui Kyong Chun, Alexander Galloway, Lev Manovich</p>
+                </div>
+              
+                <div class="category-card">
+                    <h3>NET ART</h3>
+                    <p>Alexei Shulgin, Yael Kanarek, John F. Simon Jr.</p>
+                </div>
+              
+                <div class="category-card">
+                    <h3>AI ART</h3>
+                    <p>Anna Ridler, Ian Goodfellow, Margaret Boden</p>
+                </div>
+              
+                <div class="category-card">
+                    <h3>FILM THEORY</h3>
+                    <p>Raymond Bellour, David Norman Rodowick, Thomas Elsaesser</p>
+                </div>
+              
+        </div>
+
+        <footer>
+            <p>Part of the Art Theory Quiz project</p>
+            <p>Data curated for historical accuracy and educational purposes</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const search = document.getElementById('search');
+            const cards = document.querySelectorAll('.theorist-card');
+            const tags = document.querySelectorAll('.filter-tag');
+            
+            search.addEventListener('input', filterCards);
+            tags.forEach(tag => tag.addEventListener('click', handleTagClick));
+            
+            function filterCards() {
+                const searchTerm = search.value.toLowerCase();
+                const activePeriod = document.querySelector('.filter-tag.active').dataset.period;
+                
+                cards.forEach(card => {
+                    const text = card.textContent.toLowerCase();
+                    const year = parseInt(card.querySelector('.active-period').textContent.match(/\d+/)[0]);
+                    
+                    const matchesSearch = text.includes(searchTerm);
+                    const matchesPeriod = activePeriod === 'all' || matchesTimePeriod(year, activePeriod);
+                    
+                    card.style.display = matchesSearch && matchesPeriod ? 'block' : 'none';
+                });
+            }
+            
+            function handleTagClick(e) {
+                tags.forEach(t => t.classList.remove('active'));
+                e.target.classList.add('active');
+                filterCards();
+            }
+            
+            function matchesTimePeriod(year, period) {
+                const [start, end] = period.split('-').map(p => p === 'present' ? 2024 : parseInt(p));
+                return year >= start && year <= end;
+            }
+        });
+    </script>
+</body>
+</html>

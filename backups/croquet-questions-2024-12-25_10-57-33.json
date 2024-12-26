@@ -1,0 +1,2061 @@
+{
+    "questions": [
+        {
+            "question": "What are the standard dimensions of a full-size croquet court?",
+            "answers": [
+                {
+                    "id": "q1a1",
+                    "answer": "35 yards by 28 yards",
+                    "correct": true
+                },
+                {
+                    "id": "q1a2",
+                    "answer": "30 yards by 25 yards",
+                    "correct": false
+                },
+                {
+                    "id": "q1a3",
+                    "answer": "40 yards by 30 yards",
+                    "correct": false
+                },
+                {
+                    "id": "q1a4",
+                    "answer": "35 yards by 35 yards",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Standard Court Dimensions",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Court dimensions, standardization, playing surface",
+                "summary": "The standard court size is exactly 35 yards by 28 yards, with the longer sides running north-south. This precise measurement is fundamental to proper hoop placement and gameplay."
+            },
+            "questionType": 3,
+            "citation": "Laws of Association Croquet, 7th Edition, Law 2: The Court",
+            "category": "Equipment and Setup"
+        },
+        {
+            "question": "Who is credited with standardizing the rules of croquet in the 1860s?",
+            "answers": [
+                {
+                    "id": "q2a1",
+                    "answer": "Walter Jones Whitmore",
+                    "correct": true
+                },
+                {
+                    "id": "q2a2",
+                    "answer": "John Jaques II",
+                    "correct": false
+                },
+                {
+                    "id": "q2a3",
+                    "answer": "Lord Tollemache",
+                    "correct": false
+                },
+                {
+                    "id": "q2a4",
+                    "answer": "Charles Dickens",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "First Standardized Rules of Croquet",
+                "year": 1866,
+                "author": "Walter Jones Whitmore",
+                "key_concepts": "Rule standardization, competitive play, game formalization",
+                "summary": "Whitmore published 'Croquet: The Laws and Regulations of the Game,' which became the foundation for modern croquet rules.",
+                "significance": "First comprehensive rulebook that standardized competitive play",
+                "related_concepts": "Tournament regulations, game variations, competitive formats"
+            },
+            "questionType": 1,
+            "citation": "Whitmore, W.J. (1866). Croquet: The Laws and Regulations of the Game",
+            "category": "History"
+        },
+        {
+            "question": "What is a 'triple peel' in Association Croquet?",
+            "answers": [
+                {
+                    "id": "q3a1",
+                    "answer": "Running three consecutive hoops with the striker's ball",
+                    "correct": false
+                },
+                {
+                    "id": "q3a2",
+                    "answer": "Causing another ball to score its last three hoops and be pegged out during a single turn while the striker's ball remains in play",
+                    "correct": true
+                },
+                {
+                    "id": "q3a3",
+                    "answer": "Making three roquet shots in succession",
+                    "correct": false
+                },
+                {
+                    "id": "q3a4",
+                    "answer": "Running the last three hoops with any ball",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Advanced Break Play Techniques",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Peeling, advanced tactics, break control",
+                "summary": "A triple peel is an advanced tactic where the striker causes another ball (the peelee) to score its last three hoops and be pegged out in a single turn, while keeping their own ball in play for tactical advantage."
+            },
+            "questionType": 4,
+            "citation": "Laws of Association Croquet, 7th Edition, Glossary: Triple Peel",
+            "category": "Advanced Techniques"
+        },
+        {
+            "question": "In Association Croquet, what happens when a ball is roqueted?",
+            "answers": [
+                {
+                    "id": "q4a1",
+                    "answer": "The turn ends immediately",
+                    "correct": false
+                },
+                {
+                    "id": "q4a2",
+                    "answer": "The striker's ball becomes dead on the roqueted ball",
+                    "correct": true
+                },
+                {
+                    "id": "q4a3",
+                    "answer": "The roqueted ball is removed from play",
+                    "correct": false
+                },
+                {
+                    "id": "q4a4",
+                    "answer": "The striker gets an extra turn",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Roquet and Croquet Strokes",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Roquet, croquet stroke, continuation stroke",
+                "summary": "After a roquet, the striker's ball becomes dead on the roqueted ball and must take croquet before continuing play.",
+                "significance": "Fundamental rule that enables tactical play and break building",
+                "related_concepts": "Dead ball status, croquet stroke, continuation stroke"
+            },
+            "questionType": 2,
+            "citation": "Laws of Association Croquet, 7th Edition, Law 16",
+            "category": "Rules and Regulations"
+        },
+        {
+            "question": "In break play, what is the key principle for positioning pioneer balls?",
+            "answers": [
+                {
+                    "id": "q5a1",
+                    "answer": "Always place them directly in front of hoops",
+                    "correct": false
+                },
+                {
+                    "id": "q5a2",
+                    "answer": "Position them to create a rush after running the hoop",
+                    "correct": true
+                },
+                {
+                    "id": "q5a3",
+                    "answer": "Place them as close to boundaries as possible",
+                    "correct": false
+                },
+                {
+                    "id": "q5a4",
+                    "answer": "Keep them near the center of the court",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Break Play Fundamentals",
+                "year": 2009,
+                "author": "John Riches and Wayne Davies",
+                "key_concepts": "Break play, pioneer positioning, rush setup",
+                "summary": "Pioneer balls should be positioned to set up a rush after running each hoop, enabling controlled continuation of the break."
+            },
+            "questionType": 4,
+            "citation": "Croquet Secrets: The Collected Writings of John Riches (2009), Chapter: Break Play, Section: Pioneer Ball Positioning",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What scoring system is used in the MacRobertson Shield?",
+            "answers": [
+                {
+                    "id": "q6a1",
+                    "answer": "Best of 5 games",
+                    "correct": false
+                },
+                {
+                    "id": "q6a2",
+                    "answer": "Best of 3 games",
+                    "correct": false
+                },
+                {
+                    "id": "q6a3",
+                    "answer": "Test match format",
+                    "correct": true
+                },
+                {
+                    "id": "q6a4",
+                    "answer": "Single game knockout",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "International Tournament Formats",
+                "year": 1925,
+                "author": "Croquet Association",
+                "key_concepts": "Tournament formats, international competition, test matches",
+                "summary": "The MacRobertson Shield uses a test match format, where teams compete over multiple days in a series of matches.",
+                "significance": "Most prestigious team event in world croquet",
+                "related_concepts": "Team competition, international croquet, tournament structure"
+            },
+            "questionType": 5,
+            "citation": "World Croquet Federation Tournament Regulations",
+            "category": "Tournament and Competition"
+        },
+        {
+            "question": "Who won the first MacRobertson Shield in 1925?",
+            "answers": [
+                {
+                    "id": "q7a1",
+                    "answer": "England",
+                    "correct": false
+                },
+                {
+                    "id": "q7a2",
+                    "answer": "New Zealand",
+                    "correct": false
+                },
+                {
+                    "id": "q7a3",
+                    "answer": "Australia",
+                    "correct": true
+                },
+                {
+                    "id": "q7a4",
+                    "answer": "United States",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "MacRobertson Shield History",
+                "year": 1925,
+                "author": "Croquet Association",
+                "key_concepts": "International competition, team events, tournament history",
+                "summary": "The first MacRobertson Shield was won by Australia in 1925, establishing the tournament as the premier international team event in croquet.",
+                "significance": "Marked the beginning of international team competition in croquet",
+                "related_concepts": "International croquet, team competition, tournament history"
+            },
+            "questionType": 7,
+            "citation": "MacRobertson Shield Official Records, Croquet Association Archives",
+            "category": "Famous Matches and Players"
+        },
+        {
+            "question": "What is the correct distance between hoops 1 and 2 on a standard court?",
+            "answers": [
+                {
+                    "id": "q8a1",
+                    "answer": "21 yards",
+                    "correct": true
+                },
+                {
+                    "id": "q8a2",
+                    "answer": "18 yards",
+                    "correct": false
+                },
+                {
+                    "id": "q8a3",
+                    "answer": "24 yards",
+                    "correct": false
+                },
+                {
+                    "id": "q8a4",
+                    "answer": "15 yards",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Court Setting and Measurements",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Court layout, hoop settings, measurements",
+                "summary": "The standard distance between hoops 1 and 2 is set at 21 yards, as specified in the official WCF court layout diagram. This spacing is crucial for proper game play and standard court setup."
+            },
+            "questionType": 2,
+            "citation": "Laws of Association Croquet, 7th Edition, Appendix 1: Court Layout Diagram",
+            "category": "Rules and Regulations"
+        },
+        {
+            "question": "Under current rules, what happens if a ball hits the peg when it is not pegged out?",
+            "answers": [
+                {
+                    "id": "q9a1",
+                    "answer": "The ball is removed from play",
+                    "correct": false
+                },
+                {
+                    "id": "q9a2",
+                    "answer": "The turn ends immediately",
+                    "correct": true
+                },
+                {
+                    "id": "q9a3",
+                    "answer": "The ball is replaced",
+                    "correct": false
+                },
+                {
+                    "id": "q9a4",
+                    "answer": "Play continues normally",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Peg Hits and Turn Endings",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Peg hits, turn endings, ball status",
+                "summary": "When a ball that is not ready to be pegged out hits the peg, the turn ends immediately. This prevents accidental pegging out and maintains tactical play."
+            },
+            "questionType": 2,
+            "citation": "Laws of Association Croquet, 7th Edition, Law 38",
+            "category": "Rules and Regulations"
+        },
+        {
+            "question": "What is the standard time limit for tournament games?",
+            "answers": [
+                {
+                    "id": "q10a1",
+                    "answer": "3 hours",
+                    "correct": true
+                },
+                {
+                    "id": "q10a2",
+                    "answer": "2 hours",
+                    "correct": false
+                },
+                {
+                    "id": "q10a3",
+                    "answer": "4 hours",
+                    "correct": false
+                },
+                {
+                    "id": "q10a4",
+                    "answer": "No time limit",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Tournament Time Limits",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Time limits, tournament play, game management",
+                "summary": "Standard tournament games are typically set at 3 hours, with specific rules for handling endings when time is called."
+            },
+            "questionType": 5,
+            "citation": "World Croquet Federation Tournament Regulations 2023",
+            "category": "Tournament and Competition"
+        },
+        {
+            "question": "What are the official specifications for croquet balls under WCF tournament regulations?",
+            "answers": [
+                {
+                    "id": "q11a1",
+                    "answer": "3⅝ inches in diameter, 16 ounces in weight",
+                    "correct": true
+                },
+                {
+                    "id": "q11a2",
+                    "answer": "3½ inches in diameter, 14 ounces in weight",
+                    "correct": false
+                },
+                {
+                    "id": "q11a3",
+                    "answer": "3¾ inches in diameter, 18 ounces in weight",
+                    "correct": false
+                },
+                {
+                    "id": "q11a4",
+                    "answer": "3⅝ inches in diameter, 18 ounces in weight",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Ball Specifications",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Equipment standards, ball specifications, tournament regulations",
+                "summary": "Official tournament balls must meet precise specifications to ensure consistent play across all competitions."
+            },
+            "questionType": 3,
+            "citation": "World Croquet Federation Equipment Regulations 2023",
+            "category": "Equipment and Setup"
+        },
+        {
+            "question": "What is the correct sequence of play at the start of a game under Law 8.1?",
+            "answers": [
+                {
+                    "id": "q12a1",
+                    "answer": "Blue, Red, Black, Yellow, playing from either baulk-line within the first four turns",
+                    "correct": true
+                },
+                {
+                    "id": "q12a2",
+                    "answer": "Any order chosen by the players",
+                    "correct": false
+                },
+                {
+                    "id": "q12a3",
+                    "answer": "Blue, Black, Red, Yellow from corner 4",
+                    "correct": false
+                },
+                {
+                    "id": "q12a4",
+                    "answer": "Red, Yellow, Blue, Black from corner 1",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Opening Sequence",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Opening sequence, turn order, baulk-line rules",
+                "summary": "The game starts with a specific sequence of balls and players have the option to play from either baulk-line in the first four turns."
+            },
+            "questionType": 2,
+            "citation": "Laws of Association Croquet, 7th Edition, Law 8.1",
+            "category": "Rules and Regulations"
+        },
+        {
+            "question": "What is the primary purpose of wiring in a leave position?",
+            "answers": [
+                {
+                    "id": "q13a1",
+                    "answer": "To prevent opponent's balls from having direct shots at your balls",
+                    "correct": true
+                },
+                {
+                    "id": "q13a2",
+                    "answer": "To make the game more visually appealing",
+                    "correct": false
+                },
+                {
+                    "id": "q13a3",
+                    "answer": "To practice advanced shots",
+                    "correct": false
+                },
+                {
+                    "id": "q13a4",
+                    "answer": "To confuse the opponent",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Tactical Leaves and Wiring",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Wiring, tactical play, leave positions",
+                "summary": "Wiring is a crucial defensive strategy in leaves where balls are positioned so that hoops or other balls prevent the opponent from having direct shots at your balls."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a pioneer in break management?",
+            "answers": [
+                {
+                    "id": "q14a1",
+                    "answer": "A ball placed ahead for future hoop running",
+                    "correct": true
+                },
+                {
+                    "id": "q14a2",
+                    "answer": "The first player to run a hoop",
+                    "correct": false
+                },
+                {
+                    "id": "q14a3",
+                    "answer": "A special type of mallet",
+                    "correct": false
+                },
+                {
+                    "id": "q14a4",
+                    "answer": "The player who starts the game",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Break Management Fundamentals",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Pioneer placement, break construction, tactical play",
+                "summary": "Pioneers are balls strategically placed ahead of play to facilitate running future hoops. Proper pioneer management includes considering distance from hoops, angle requirements, and backup options."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Break Management",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What should be considered when managing opponent's balls in a leave?",
+            "answers": [
+                {
+                    "id": "q15a1",
+                    "answer": "Separation requirements, wiring effectiveness, and break prevention",
+                    "correct": true
+                },
+                {
+                    "id": "q15a2",
+                    "answer": "Making them look neat and tidy",
+                    "correct": false
+                },
+                {
+                    "id": "q15a3",
+                    "answer": "Placing them all in one corner",
+                    "correct": false
+                },
+                {
+                    "id": "q15a4",
+                    "answer": "Moving them as far as possible",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Leave Position Management",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Leave positions, tactical play, opponent management",
+                "summary": "Managing opponent's balls in a leave requires careful consideration of separation requirements, effective wiring, and preventing potential break opportunities."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a key consideration when managing a three-ball break?",
+            "answers": [
+                {
+                    "id": "q16a1",
+                    "answer": "Alternative break paths and recovery options",
+                    "correct": true
+                },
+                {
+                    "id": "q16a2",
+                    "answer": "Always using standard break patterns",
+                    "correct": false
+                },
+                {
+                    "id": "q16a3",
+                    "answer": "Focusing only on the next hoop",
+                    "correct": false
+                },
+                {
+                    "id": "q16a4",
+                    "answer": "Ignoring opponent's balls",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Three-Ball Break Management",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Break adaptation, tactical play, limited ball management",
+                "summary": "Three-ball break adaptations require careful consideration of alternative break paths and recovery options, as standard break patterns may not be possible."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Break Management",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "How should weather conditions affect leave strategy?",
+            "answers": [
+                {
+                    "id": "q17a1",
+                    "answer": "Adjust ball positioning and risk assessment based on wind and surface conditions",
+                    "correct": true
+                },
+                {
+                    "id": "q17a2",
+                    "answer": "Always use the same leave regardless of conditions",
+                    "correct": false
+                },
+                {
+                    "id": "q17a3",
+                    "answer": "Cancel play in poor weather",
+                    "correct": false
+                },
+                {
+                    "id": "q17a4",
+                    "answer": "Only consider wind direction",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Weather Impact on Strategy",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Weather adaptation, tactical adjustment, risk management",
+                "summary": "Weather conditions significantly impact leave strategy, requiring adjustments to ball positioning and modified risk assessment."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a key principle of defensive leaves?",
+            "answers": [
+                {
+                    "id": "q18a1",
+                    "answer": "Utilizing corners and boundaries while creating effective wiring",
+                    "correct": true
+                },
+                {
+                    "id": "q18a2",
+                    "answer": "Placing all balls in the center",
+                    "correct": false
+                },
+                {
+                    "id": "q18a3",
+                    "answer": "Keeping balls close together",
+                    "correct": false
+                },
+                {
+                    "id": "q18a4",
+                    "answer": "Ignoring opponent's ball positions",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Defensive Leave Strategy",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Defensive play, tactical positioning, wiring",
+                "summary": "Defensive leaves focus on utilizing corners and boundaries while creating effective wiring to minimize opponent's options."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "When should a player consider switching from an aggressive to a defensive strategy in test match play?",
+            "answers": [
+                {
+                    "id": "q19a1",
+                    "answer": "When leading with limited time remaining",
+                    "correct": true
+                },
+                {
+                    "id": "q19a2",
+                    "answer": "Only in the first game",
+                    "correct": false
+                },
+                {
+                    "id": "q19a3",
+                    "answer": "When trailing significantly",
+                    "correct": false
+                },
+                {
+                    "id": "q19a4",
+                    "answer": "Never during a test match",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Test Match Strategy",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Match management, tactical adaptation, time management",
+                "summary": "In test match play, leading players should consider adopting a more defensive strategy when time is limited to protect their advantage."
+            },
+            "questionType": 5,
+            "citation": "MacRobertson Shield 2022 - Match Context",
+            "category": "Tournament and Competition"
+        },
+        {
+            "question": "What is a key consideration when attempting to recover a break after losing a pioneer position?",
+            "answers": [
+                {
+                    "id": "q20a1",
+                    "answer": "Creating new pioneer positions while maintaining control",
+                    "correct": true
+                },
+                {
+                    "id": "q20a2",
+                    "answer": "Immediately ending the turn",
+                    "correct": false
+                },
+                {
+                    "id": "q20a3",
+                    "answer": "Taking the longest available shot",
+                    "correct": false
+                },
+                {
+                    "id": "q20a4",
+                    "answer": "Rushing to the next hoop",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Break Recovery",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Break recovery, tactical adaptation, control maintenance",
+                "summary": "When recovering from a lost pioneer position, the key is to create new pioneer positions while maintaining control of the break."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Break Management",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a 'stop shot peel' in advanced croquet?",
+            "answers": [
+                {
+                    "id": "q21a1",
+                    "answer": "A peeling shot where the striker's ball stops near the hoop after the peel",
+                    "correct": true
+                },
+                {
+                    "id": "q21a2",
+                    "answer": "A shot that stops both balls from moving",
+                    "correct": false
+                },
+                {
+                    "id": "q21a3",
+                    "answer": "A shot that prevents the opponent from scoring",
+                    "correct": false
+                },
+                {
+                    "id": "q21a4",
+                    "answer": "A shot that stops at the boundary",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Advanced Peeling Techniques",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Peeling, stop shots, advanced tactics",
+                "summary": "A stop shot peel is an alternative to the Irish peel, used in specific situations near hoops where the striker's ball needs to remain in a controlled position after executing the peel."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Advanced Concepts",
+            "category": "Advanced Techniques"
+        },
+        {
+            "question": "What is a 'rush-peel' in croquet?",
+            "answers": [
+                {
+                    "id": "q22a1",
+                    "answer": "Peeling a ball while rushing it to a new position",
+                    "correct": true
+                },
+                {
+                    "id": "q22a2",
+                    "answer": "Rushing quickly to the next hoop",
+                    "correct": false
+                },
+                {
+                    "id": "q22a3",
+                    "answer": "A fast-paced game style",
+                    "correct": false
+                },
+                {
+                    "id": "q22a4",
+                    "answer": "A rushed shot under time pressure",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Advanced Rush Techniques",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Rush-peel, advanced tactics, break control",
+                "summary": "A rush-peel is an advanced technique where the striker combines a rush with a peel, typically seen in phrases like 'Aaron rush-peels 4-b', indicating high-level control and precision."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Advanced Concepts",
+            "category": "Advanced Techniques"
+        },
+        {
+            "question": "What is a 'hampered shot' in croquet?",
+            "answers": [
+                {
+                    "id": "q23a1",
+                    "answer": "A shot where the striker's swing is impeded by a hoop or ball",
+                    "correct": true
+                },
+                {
+                    "id": "q23a2",
+                    "answer": "A shot taken from the boundary",
+                    "correct": false
+                },
+                {
+                    "id": "q23a3",
+                    "answer": "A shot taken under time pressure",
+                    "correct": false
+                },
+                {
+                    "id": "q23a4",
+                    "answer": "A shot taken from a corner",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Hampered Shots",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Shot impediments, referee oversight, technical difficulty",
+                "summary": "A hampered shot occurs when the striker's normal swing is impeded by another ball or hoop, often requiring referee oversight due to the increased risk of faulting."
+            },
+            "questionType": 3,
+            "citation": "MacRobertson Shield 2022 - Advanced Concepts",
+            "category": "Technical Skills"
+        },
+        {
+            "question": "What is a 'dolly rush' in croquet?",
+            "answers": [
+                {
+                    "id": "q24a1",
+                    "answer": "A straightforward, easy rush",
+                    "correct": true
+                },
+                {
+                    "id": "q24a2",
+                    "answer": "A rush to the dolly peg",
+                    "correct": false
+                },
+                {
+                    "id": "q24a3",
+                    "answer": "A rush with a special mallet",
+                    "correct": false
+                },
+                {
+                    "id": "q24a4",
+                    "answer": "A rush from corner 4",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Rush Types",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Rush techniques, basic skills, shot types",
+                "summary": "A dolly rush is a straightforward, relatively easy rush shot where the balls are well-positioned for the desired outcome, contrasting with more difficult rush situations."
+            },
+            "questionType": 2,
+            "citation": "MacRobertson Shield 2022 - Technical Summary",
+            "category": "Technical Skills"
+        },
+        {
+            "question": "What is meant by a 'half-ball' shot in croquet?",
+            "answers": [
+                {
+                    "id": "q25a1",
+                    "answer": "A shot where the striker's ball contacts the target ball at its visible midpoint",
+                    "correct": true
+                },
+                {
+                    "id": "q25a2",
+                    "answer": "A shot that moves the ball halfway to the target",
+                    "correct": false
+                },
+                {
+                    "id": "q25a3",
+                    "answer": "A shot with half the normal power",
+                    "correct": false
+                },
+                {
+                    "id": "q25a4",
+                    "answer": "A shot that splits two balls apart",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Shot Contact Points",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Ball contact, shot angles, technical precision",
+                "summary": "A half-ball shot refers to the point of contact between the striker's ball and the target ball, where the striker's ball contacts the target ball at its visible midpoint, creating a specific angle of deflection."
+            },
+            "questionType": 3,
+            "citation": "MacRobertson Shield 2022 - Technical Summary",
+            "category": "Technical Skills"
+        },
+        {
+            "question": "What is a 'death roll' in croquet?",
+            "answers": [
+                {
+                    "id": "q26a1",
+                    "answer": "A risky peeling attempt with high potential for failure",
+                    "correct": true
+                },
+                {
+                    "id": "q26a2",
+                    "answer": "A shot that removes both balls from play",
+                    "correct": false
+                },
+                {
+                    "id": "q26a3",
+                    "answer": "A shot that ends the game immediately",
+                    "correct": false
+                },
+                {
+                    "id": "q26a4",
+                    "answer": "A roll shot from the boundary",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Advanced Peeling Risks",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Risk assessment, peeling techniques, advanced tactics",
+                "summary": "A death roll is a particularly risky peeling attempt, typically mentioned in contexts like 'Aaron tries the death-roll to 3-b', indicating a difficult and potentially game-changing shot."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Advanced Concepts",
+            "category": "Advanced Techniques"
+        },
+        {
+            "question": "What is a 'backward takeoff' in croquet?",
+            "answers": [
+                {
+                    "id": "q27a1",
+                    "answer": "Moving the striker's ball backward away from another ball",
+                    "correct": true
+                },
+                {
+                    "id": "q27a2",
+                    "answer": "Taking a shot from behind the hoop",
+                    "correct": false
+                },
+                {
+                    "id": "q27a3",
+                    "answer": "Moving both balls backward",
+                    "correct": false
+                },
+                {
+                    "id": "q27a4",
+                    "answer": "A shot taken while facing backward",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Takeoff Shots",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Shot types, ball control, directional play",
+                "summary": "A backward takeoff is a specific type of takeoff shot where the striker's ball moves backward from its current position relative to the ball it's in contact with, requiring precise control and technique."
+            },
+            "questionType": 3,
+            "citation": "MacRobertson Shield 2022 - Technical Summary",
+            "category": "Technical Skills"
+        },
+        {
+            "question": "What is meant by 'making a spread' in croquet?",
+            "answers": [
+                {
+                    "id": "q28a1",
+                    "answer": "Positioning balls strategically across the court for tactical advantage",
+                    "correct": true
+                },
+                {
+                    "id": "q28a2",
+                    "answer": "Spreading news about the game",
+                    "correct": false
+                },
+                {
+                    "id": "q28a3",
+                    "answer": "Moving balls far apart randomly",
+                    "correct": false
+                },
+                {
+                    "id": "q28a4",
+                    "answer": "Setting up the hoops widely",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Strategic Ball Positioning",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Tactical positioning, court control, break building",
+                "summary": "Making a spread refers to the strategic positioning of balls across the court to create tactical advantages, typically as part of break building or leave positioning."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Technical Summary",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a 'cut rush' in croquet?",
+            "answers": [
+                {
+                    "id": "q29a1",
+                    "answer": "A delicate rush shot played at an angle",
+                    "correct": true
+                },
+                {
+                    "id": "q29a2",
+                    "answer": "A rush that's been interrupted",
+                    "correct": false
+                },
+                {
+                    "id": "q29a3",
+                    "answer": "A rush to cut off the opponent",
+                    "correct": false
+                },
+                {
+                    "id": "q29a4",
+                    "answer": "A rush that's been shortened",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Advanced Rush Techniques",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Rush variations, angle control, precision shots",
+                "summary": "A cut rush is a more delicate variation of the rush shot, played at an angle to achieve specific positioning, requiring precise control and technique."
+            },
+            "questionType": 3,
+            "citation": "MacRobertson Shield 2022 - Technical Summary",
+            "category": "Technical Skills"
+        },
+        {
+            "question": "What is a 'wired rush' in croquet?",
+            "answers": [
+                {
+                    "id": "q30a1",
+                    "answer": "A rush where one ball is protected from being hit by another",
+                    "correct": true
+                },
+                {
+                    "id": "q30a2",
+                    "answer": "A rush using the wire of the hoop",
+                    "correct": false
+                },
+                {
+                    "id": "q30a3",
+                    "answer": "A rush that connects two positions",
+                    "correct": false
+                },
+                {
+                    "id": "q30a4",
+                    "answer": "A rush along the boundary wire",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Tactical Rush Positions",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Wiring, tactical positioning, defensive play",
+                "summary": "A wired rush involves a situation where one ball is protected (wired) from being hit by another ball, typically due to the positioning of hoops or other balls, creating tactical advantages."
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Technical Summary",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "According to Wylie's Expert Croquet Tactics, what is the 'Duffer tice' in the standard opening?",
+            "answers": [
+                {
+                    "id": "q27a1",
+                    "answer": "A tice placed near corner IV",
+                    "correct": false
+                },
+                {
+                    "id": "q27a2",
+                    "answer": "A tice placed near hoop 6",
+                    "correct": true
+                },
+                {
+                    "id": "q27a3",
+                    "answer": "A tice placed at the peg",
+                    "correct": false
+                },
+                {
+                    "id": "q27a4",
+                    "answer": "A tice placed in corner I",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Duffer Tice Opening Strategy",
+                "year": 1991,
+                "author": "Keith Wylie",
+                "key_concepts": "Opening tactics, tice placement, strategic positioning",
+                "summary": "The Duffer tice, attributed to Duff Mathews, involves placing R near hoop 6, offering K a shot that appears short but is tactically challenging.",
+                "significance": "Effective opening tactic even against strong players",
+                "related_concepts": "Opening tactics, tice placement, risk management"
+            },
+            "questionType": 4,
+            "citation": "Expert Croquet Tactics, Article 4: The Opening",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "In defensive play, what is the recommended distance from the boundary when 'guarding off the boundary'?",
+            "answers": [
+                {
+                    "id": "q28a1",
+                    "answer": "3 meters",
+                    "correct": false
+                },
+                {
+                    "id": "q28a2",
+                    "answer": "1 meter",
+                    "correct": true
+                },
+                {
+                    "id": "q28a3",
+                    "answer": "2 meters",
+                    "correct": false
+                },
+                {
+                    "id": "q28a4",
+                    "answer": "0.5 meters",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Boundary Defense Tactics",
+                "year": 2024,
+                "author": "Dr Ian Plummer",
+                "key_concepts": "Defensive positioning, boundary play, tactical placement",
+                "summary": "Placing balls about 1 meter off the boundary allows for effective defensive play while maintaining the ability to send opponent's balls into court with stop-shots.",
+                "significance": "Balances defensive safety with offensive potential",
+                "related_concepts": "Defensive tactics, position play, break opportunities"
+            },
+            "questionType": 4,
+            "citation": "Oxford Croquet - Defensive Play in Croquet",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is the primary consideration when managing weather effects in break play during the MacRobertson Shield?",
+            "answers": [
+                {
+                    "id": "q29a1",
+                    "answer": "Adjusting shot selection based on conditions",
+                    "correct": true
+                },
+                {
+                    "id": "q29a2",
+                    "answer": "Waiting for better weather",
+                    "correct": false
+                },
+                {
+                    "id": "q29a3",
+                    "answer": "Using heavier balls",
+                    "correct": false
+                },
+                {
+                    "id": "q29a4",
+                    "answer": "Playing faster",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Weather Impact on Break Play",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Weather effects, shot adaptation, break management",
+                "summary": "Successful break management in challenging weather requires careful adjustment of shot selection and risk assessment.",
+                "significance": "Critical for maintaining control in varying conditions",
+                "related_concepts": "Break adaptation, weather management, risk assessment"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Break Management Commentary",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "According to Wylie, what is the key disadvantage of playing U level with hoop 4 in the standard opening?",
+            "answers": [
+                {
+                    "id": "q30a1",
+                    "answer": "Risk of leaving a double target if K misses",
+                    "correct": true
+                },
+                {
+                    "id": "q30a2",
+                    "answer": "Too far from corner IV",
+                    "correct": false
+                },
+                {
+                    "id": "q30a3",
+                    "answer": "Too close to the peg",
+                    "correct": false
+                },
+                {
+                    "id": "q30a4",
+                    "answer": "Difficult to defend",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Opening Ball Placement Theory",
+                "year": 1991,
+                "author": "Keith Wylie",
+                "key_concepts": "Opening tactics, ball placement, risk assessment",
+                "summary": "Playing U level with hoop 4 creates a significant risk of leaving a double target if K shoots at U and misses on the right.",
+                "significance": "Critical positioning consideration that influenced modern opening theory",
+                "related_concepts": "Opening tactics, risk management, strategic positioning"
+            },
+            "questionType": 4,
+            "citation": "Expert Croquet Tactics, Article 4: The Opening",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is the primary advantage of controlling corner IV in the opening?",
+            "answers": [
+                {
+                    "id": "q35a1",
+                    "answer": "Your balls tend to be behind the first break and opponents' in front of it",
+                    "correct": true
+                },
+                {
+                    "id": "q35a2",
+                    "answer": "It's closer to hoop 1",
+                    "correct": false
+                },
+                {
+                    "id": "q35a3",
+                    "answer": "It provides better shooting angles",
+                    "correct": false
+                },
+                {
+                    "id": "q35a4",
+                    "answer": "It's the most defensive position",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Corner IV Control Strategy",
+                "year": 1991,
+                "author": "Keith Wylie",
+                "key_concepts": "Opening tactics, court control, positional play",
+                "summary": "Control of corner IV at the beginning of the game is advantageous because your balls tend to be behind the first break while your opponents' balls are in front of it, creating better tactical opportunities.",
+                "significance": "Fundamental principle of opening strategy",
+                "related_concepts": "Break building, tactical positioning, court control"
+            },
+            "questionType": 4,
+            "citation": "Expert Croquet Tactics, Article 4: The Opening",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "In the supershot opening, what is the key characteristic?",
+            "answers": [
+                {
+                    "id": "q36a1",
+                    "answer": "Places ball in more exposed position for aggressive play",
+                    "correct": true
+                },
+                {
+                    "id": "q36a2",
+                    "answer": "Always starts from corner I",
+                    "correct": false
+                },
+                {
+                    "id": "q36a3",
+                    "answer": "Focuses on defensive positioning",
+                    "correct": false
+                },
+                {
+                    "id": "q36a4",
+                    "answer": "Requires specific weather conditions",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Supershot Opening Strategy",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Aggressive openings, tactical risk, early opportunities",
+                "summary": "The supershot opening is characterized by placing a ball in a more exposed position, creating early tactical opportunities at the cost of increased risk.",
+                "significance": "Important aggressive opening option in tournament play",
+                "related_concepts": "Risk assessment, aggressive tactics, early break opportunities"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Opening Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "According to Wylie, what is a key consideration when choosing an opening style?",
+            "answers": [
+                {
+                    "id": "q37a1",
+                    "answer": "Keep it straightforward to focus on shooting",
+                    "correct": true
+                },
+                {
+                    "id": "q37a2",
+                    "answer": "Always use complex tactical variations",
+                    "correct": false
+                },
+                {
+                    "id": "q37a3",
+                    "answer": "Maximize opponent confusion",
+                    "correct": false
+                },
+                {
+                    "id": "q37a4",
+                    "answer": "Follow the latest trends",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Opening Style Selection",
+                "year": 1991,
+                "author": "Keith Wylie",
+                "key_concepts": "Opening tactics, psychological factors, shooting focus",
+                "summary": "A deliberately unsubtle approach to the opening allows players to concentrate on their shooting, avoiding additional worry during an already tense phase of the game.",
+                "significance": "Practical advice for managing opening tension",
+                "related_concepts": "Tactical simplicity, shooting accuracy, psychological preparation"
+            },
+            "questionType": 4,
+            "citation": "Expert Croquet Tactics, Article 4: The Opening",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a key factor in adapting opening tactics for tournament play?",
+            "answers": [
+                {
+                    "id": "q38a1",
+                    "answer": "Match context and score situation",
+                    "correct": true
+                },
+                {
+                    "id": "q38a2",
+                    "answer": "Time of day",
+                    "correct": false
+                },
+                {
+                    "id": "q38a3",
+                    "answer": "Spectator preferences",
+                    "correct": false
+                },
+                {
+                    "id": "q38a4",
+                    "answer": "Court color scheme",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Tournament Opening Adaptations",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Match context, tactical adaptation, tournament strategy",
+                "summary": "Opening tactics in tournament play should be adapted based on match context, with more conservative play in crucial games and potentially more aggressive approaches when trailing.",
+                "significance": "Essential for effective tournament strategy",
+                "related_concepts": "Match management, tactical flexibility, risk assessment"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Opening Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "In the standard opening, what is the recommended placement for ball K in response to U being North of hoop 4?",
+            "answers": [
+                {
+                    "id": "q39a1",
+                    "answer": "About 8 yards East of hoop 6",
+                    "correct": true
+                },
+                {
+                    "id": "q39a2",
+                    "answer": "Near corner II",
+                    "correct": false
+                },
+                {
+                    "id": "q39a3",
+                    "answer": "Close to the peg",
+                    "correct": false
+                },
+                {
+                    "id": "q39a4",
+                    "answer": "At hoop 1",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Standard Opening Response",
+                "year": 1991,
+                "author": "Keith Wylie",
+                "key_concepts": "Opening responses, tactical positioning, standard opening",
+                "summary": "When U is placed North of hoop 4, K should be placed about 8 yards East of hoop 6, providing a good balance of offensive and defensive options.",
+                "significance": "Key response in standard opening theory",
+                "related_concepts": "Opening tactics, ball placement, position play"
+            },
+            "questionType": 4,
+            "citation": "Expert Croquet Tactics, Article 4: The Opening",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is the main advantage of the 'diagonal spread' opening variation?",
+            "answers": [
+                {
+                    "id": "q40a1",
+                    "answer": "Creates immediate tactical opportunities while maintaining defensive options",
+                    "correct": true
+                },
+                {
+                    "id": "q40a2",
+                    "answer": "Guarantees first break",
+                    "correct": false
+                },
+                {
+                    "id": "q40a3",
+                    "answer": "Prevents opponent shots",
+                    "correct": false
+                },
+                {
+                    "id": "q40a4",
+                    "answer": "Simplifies gameplay",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Diagonal Spread Opening",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Opening variations, tactical balance, court control",
+                "summary": "The diagonal spread creates immediate tactical opportunities while maintaining defensive options through strategic ball placement across the court diagonal.",
+                "significance": "Modern aggressive opening variation",
+                "related_concepts": "Tactical openings, aggressive play, position control"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Opening Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is a key counter-tactic against the supershot opening?",
+            "answers": [
+                {
+                    "id": "q41a1",
+                    "answer": "Place your ball to threaten both a long roquet and a defensive position",
+                    "correct": true
+                },
+                {
+                    "id": "q41a2",
+                    "answer": "Always shoot at the exposed ball",
+                    "correct": false
+                },
+                {
+                    "id": "q41a3",
+                    "answer": "Place all balls in corners",
+                    "correct": false
+                },
+                {
+                    "id": "q41a4",
+                    "answer": "Ignore the exposed ball",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Supershot Counter-Tactics",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Counter-tactics, defensive play, tactical responses",
+                "summary": "When facing a supershot opening, effective counter-play involves positioning that threatens both aggressive and defensive options, putting pressure on the opponent.",
+                "significance": "Essential knowledge for tournament play",
+                "related_concepts": "Tactical responses, position play, risk management"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Opening Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "In the standard opening, what is the recommended counter to the 'Duffer tice'?",
+            "answers": [
+                {
+                    "id": "q42a1",
+                    "answer": "Place K in corner IV, declining the tice",
+                    "correct": true
+                },
+                {
+                    "id": "q42a2",
+                    "answer": "Always shoot at the tice",
+                    "correct": false
+                },
+                {
+                    "id": "q42a3",
+                    "answer": "Place K near hoop 1",
+                    "correct": false
+                },
+                {
+                    "id": "q42a4",
+                    "answer": "Shoot at partner ball",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Duffer Tice Counter-Strategy",
+                "year": 1991,
+                "author": "Keith Wylie",
+                "key_concepts": "Opening responses, tice defense, tactical positioning",
+                "summary": "The recommended counter to the Duffer tice is to decline it by placing K in corner IV, maintaining tactical control while avoiding the risk of leaving a double target.",
+                "significance": "Important defensive principle in opening play",
+                "related_concepts": "Tice response, defensive positioning, risk assessment"
+            },
+            "questionType": 4,
+            "citation": "Expert Croquet Tactics, Article 4: The Opening",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "Which innovation in croquet equipment was introduced by John Jaques II in the 1860s?",
+            "answers": [
+                {
+                    "id": "q43a1",
+                    "answer": "The cast-iron hoop",
+                    "correct": true
+                },
+                {
+                    "id": "q43a2",
+                    "answer": "The wooden mallet",
+                    "correct": false
+                },
+                {
+                    "id": "q43a3",
+                    "answer": "The composite ball",
+                    "correct": false
+                },
+                {
+                    "id": "q43a4",
+                    "answer": "The corner flag",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Equipment Evolution",
+                "year": 1860,
+                "author": "John Jaques II",
+                "key_concepts": "Equipment development, standardization, manufacturing",
+                "summary": "John Jaques II's introduction of cast-iron hoops revolutionized the game by providing durable, standardized equipment that improved consistency in play.",
+                "significance": "Major step in equipment standardization",
+                "related_concepts": "Equipment standards, game development, manufacturing history"
+            },
+            "questionType": 1,
+            "citation": "The History of Croquet Equipment Manufacturing",
+            "category": "History"
+        },
+        {
+            "question": "What is the official tolerance for hoop width in championship play?",
+            "answers": [
+                {
+                    "id": "q44a1",
+                    "answer": "1/32 inch (0.8mm)",
+                    "correct": true
+                },
+                {
+                    "id": "q44a2",
+                    "answer": "1/16 inch (1.6mm)",
+                    "correct": false
+                },
+                {
+                    "id": "q44a3",
+                    "answer": "1/8 inch (3.2mm)",
+                    "correct": false
+                },
+                {
+                    "id": "q44a4",
+                    "answer": "1/4 inch (6.4mm)",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Equipment Specifications",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Equipment standards, precision requirements, tournament specifications",
+                "summary": "The precise tolerance of 1/32 inch ensures consistent challenge across all championship venues while maintaining playability.",
+                "significance": "Critical for fair competition",
+                "related_concepts": "Tournament standards, equipment regulations, game consistency"
+            },
+            "questionType": 3,
+            "citation": "World Croquet Federation Equipment Regulations 2023",
+            "category": "Equipment and Setup"
+        },
+        {
+            "question": "Which historical figure is credited with introducing croquet to Ireland in the 1830s?",
+            "answers": [
+                {
+                    "id": "q45a1",
+                    "answer": "Lord Lonsdale",
+                    "correct": true
+                },
+                {
+                    "id": "q45a2",
+                    "answer": "Queen Victoria",
+                    "correct": false
+                },
+                {
+                    "id": "q45a3",
+                    "answer": "Duke of Wellington",
+                    "correct": false
+                },
+                {
+                    "id": "q45a4",
+                    "answer": "Charles Dickens",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Irish Croquet Origins",
+                "year": 1830,
+                "author": "Historical Records",
+                "key_concepts": "Game origins, cultural diffusion, historical development",
+                "summary": "Lord Lonsdale's introduction of croquet to Ireland marked a significant point in the game's spread throughout the British Isles.",
+                "significance": "Key moment in croquet's geographical expansion",
+                "related_concepts": "Game history, cultural development, international spread"
+            },
+            "questionType": 1,
+            "citation": "Early History of Croquet in Ireland",
+            "category": "History"
+        },
+        {
+            "question": "What was the first major change made to croquet rules in tournament play after World War II?",
+            "answers": [
+                {
+                    "id": "q46a1",
+                    "answer": "Introduction of time limits",
+                    "correct": true
+                },
+                {
+                    "id": "q46a2",
+                    "answer": "Change in court size",
+                    "correct": false
+                },
+                {
+                    "id": "q46a3",
+                    "answer": "New scoring system",
+                    "correct": false
+                },
+                {
+                    "id": "q46a4",
+                    "answer": "Different ball colors",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Post-War Rule Development",
+                "year": 1946,
+                "author": "Croquet Association",
+                "key_concepts": "Rule evolution, tournament organization, game management",
+                "summary": "The introduction of time limits in tournament play was a response to the need for more structured competition formats after WWII.",
+                "significance": "Fundamental change in tournament organization",
+                "related_concepts": "Tournament structure, game management, competitive play"
+            },
+            "questionType": 1,
+            "citation": "Evolution of Croquet Rules: Post-War Developments",
+            "category": "History"
+        },
+        {
+            "question": "What material was used for the first standardized croquet balls in the 1860s?",
+            "answers": [
+                {
+                    "id": "q47a1",
+                    "answer": "Boxwood",
+                    "correct": true
+                },
+                {
+                    "id": "q47a2",
+                    "answer": "Plastic",
+                    "correct": false
+                },
+                {
+                    "id": "q47a3",
+                    "answer": "Rubber",
+                    "correct": false
+                },
+                {
+                    "id": "q47a4",
+                    "answer": "Cork",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Early Equipment Standards",
+                "year": 1860,
+                "author": "Equipment Manufacturers",
+                "key_concepts": "Equipment history, material science, standardization",
+                "summary": "Boxwood was chosen for its durability and consistent density, making it ideal for the first standardized croquet balls.",
+                "significance": "First step towards equipment standardization",
+                "related_concepts": "Equipment evolution, manufacturing history, game standardization"
+            },
+            "questionType": 3,
+            "citation": "History of Croquet Equipment Manufacturing",
+            "category": "Equipment and Setup"
+        },
+        {
+            "question": "What is the primary consideration when setting up a 4-ball leave?",
+            "answers": [
+                {
+                    "id": "q48a1",
+                    "answer": "Maximizing wiring while maintaining break potential",
+                    "correct": true
+                },
+                {
+                    "id": "q48a2",
+                    "answer": "Keeping all balls close together",
+                    "correct": false
+                },
+                {
+                    "id": "q48a3",
+                    "answer": "Placing balls near boundaries",
+                    "correct": false
+                },
+                {
+                    "id": "q48a4",
+                    "answer": "Creating long shots",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "4-Ball Leave Strategy",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Leave positions, wiring, break potential",
+                "summary": "In a 4-ball leave, the key is to maximize wiring effectiveness while maintaining the potential for your own break if the opponent fails to score.",
+                "significance": "Fundamental to advanced tactical play",
+                "related_concepts": "Tactical positioning, defensive play, break opportunities"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "When setting up a leave with a ball near hoop 1, what is the recommended distance from the hoop?",
+            "answers": [
+                {
+                    "id": "q49a1",
+                    "answer": "About 3 yards",
+                    "correct": true
+                },
+                {
+                    "id": "q49a2",
+                    "answer": "Less than 1 yard",
+                    "correct": false
+                },
+                {
+                    "id": "q49a3",
+                    "answer": "More than 5 yards",
+                    "correct": false
+                },
+                {
+                    "id": "q49a4",
+                    "answer": "Exactly at the hoop",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Hoop 1 Leave Positioning",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Leave positions, hoop proximity, tactical placement",
+                "summary": "Placing a ball about 3 yards from hoop 1 provides a good balance between threatening the hoop and maintaining defensive options.",
+                "significance": "Critical for early game tactics",
+                "related_concepts": "Position play, tactical balance, defensive options"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is the 'cross-court leave' primarily used for?",
+            "answers": [
+                {
+                    "id": "q50a1",
+                    "answer": "Creating maximum separation while maintaining tactical control",
+                    "correct": true
+                },
+                {
+                    "id": "q50a2",
+                    "answer": "Making the game look interesting",
+                    "correct": false
+                },
+                {
+                    "id": "q50a3",
+                    "answer": "Practicing long shots",
+                    "correct": false
+                },
+                {
+                    "id": "q50a4",
+                    "answer": "Confusing spectators",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Cross-Court Leave Strategy",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Leave variations, court control, tactical separation",
+                "summary": "The cross-court leave maximizes ball separation while maintaining tactical control, making it harder for opponents to construct breaks.",
+                "significance": "Advanced defensive tactic",
+                "related_concepts": "Ball separation, court control, defensive strategy"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "In a defensive leave, what is the primary purpose of 'guarding the boundary'?",
+            "answers": [
+                {
+                    "id": "q51a1",
+                    "answer": "To make opponent's shots at your balls more risky",
+                    "correct": true
+                },
+                {
+                    "id": "q51a2",
+                    "answer": "To prevent balls going out",
+                    "correct": false
+                },
+                {
+                    "id": "q51a3",
+                    "answer": "To mark the playing area",
+                    "correct": false
+                },
+                {
+                    "id": "q51a4",
+                    "answer": "To improve visibility",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Boundary Defense Strategy",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Defensive positioning, boundary play, risk management",
+                "summary": "Guarding the boundary makes opponent's shots at your balls more risky by forcing them to avoid sending balls off the court.",
+                "significance": "Key defensive tactic",
+                "related_concepts": "Defensive play, position control, risk management"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is the 'contact leave' technique used for?",
+            "answers": [
+                {
+                    "id": "q52a1",
+                    "answer": "Forcing opponent to play away while retaining tactical advantage",
+                    "correct": true
+                },
+                {
+                    "id": "q52a2",
+                    "answer": "Creating a spectacle",
+                    "correct": false
+                },
+                {
+                    "id": "q52a3",
+                    "answer": "Making physical contact",
+                    "correct": false
+                },
+                {
+                    "id": "q52a4",
+                    "answer": "Practicing ball control",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Contact Leave Strategy",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Contact leaves, tactical advantage, forced play",
+                "summary": "The contact leave forces the opponent to play away from the contact while you retain tactical advantage through careful positioning of other balls.",
+                "significance": "Advanced tactical option",
+                "related_concepts": "Forced moves, tactical control, position play"
+            },
+            "questionType": 4,
+            "citation": "MacRobertson Shield 2022 - Leave Strategies",
+            "category": "Strategy and Tactics"
+        },
+        {
+            "question": "What is the correct technique for executing a 'stop shot' in croquet?",
+            "answers": [
+                {
+                    "id": "q53a1",
+                    "answer": "Strike down firmly with a vertical mallet face",
+                    "correct": true
+                },
+                {
+                    "id": "q53a2",
+                    "answer": "Swing horizontally with follow-through",
+                    "correct": false
+                },
+                {
+                    "id": "q53a3",
+                    "answer": "Hit softly with an angled mallet",
+                    "correct": false
+                },
+                {
+                    "id": "q53a4",
+                    "answer": "Use a sweeping motion",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Stop Shot Technique",
+                "year": 2022,
+                "author": "MacRobertson Shield Commentary",
+                "key_concepts": "Shot technique, ball control, mallet grip",
+                "summary": "A proper stop shot requires a firm, downward strike with a vertical mallet face to minimize forward movement of the striker's ball.",
+                "significance": "Essential technical skill for precise ball control",
+                "related_concepts": "Ball control, shot types, technical execution"
+            },
+            "questionType": 3,
+            "citation": "MacRobertson Shield 2022 - Technical Skills",
+            "category": "Technical Skills"
+        },
+        {
+            "question": "What is the maximum time allowed for a player to play their turn in tournament play?",
+            "answers": [
+                {
+                    "id": "q54a1",
+                    "answer": "1 minute",
+                    "correct": true
+                },
+                {
+                    "id": "q54a2",
+                    "answer": "2 minutes",
+                    "correct": false
+                },
+                {
+                    "id": "q54a3",
+                    "answer": "30 seconds",
+                    "correct": false
+                },
+                {
+                    "id": "q54a4",
+                    "answer": "3 minutes",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Tournament Time Rules",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Time management, tournament regulations, game pace",
+                "summary": "Players must complete their turn within 1 minute to maintain game pace and prevent time-wasting.",
+                "significance": "Important for tournament flow",
+                "related_concepts": "Game management, time limits, tournament regulations"
+            },
+            "questionType": 5,
+            "citation": "World Croquet Federation Tournament Regulations 2023",
+            "category": "Tournament and Competition"
+        },
+        {
+            "question": "What is the required minimum height for corner flags in championship play?",
+            "answers": [
+                {
+                    "id": "q55a1",
+                    "answer": "12 inches",
+                    "correct": true
+                },
+                {
+                    "id": "q55a2",
+                    "answer": "6 inches",
+                    "correct": false
+                },
+                {
+                    "id": "q55a3",
+                    "answer": "18 inches",
+                    "correct": false
+                },
+                {
+                    "id": "q55a4",
+                    "answer": "24 inches",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Corner Flag Specifications",
+                "year": 2023,
+                "author": "World Croquet Federation",
+                "key_concepts": "Equipment standards, court marking, visibility requirements",
+                "summary": "Corner flags must be at least 12 inches high to ensure visibility while not interfering with play.",
+                "significance": "Essential for court setup and game play",
+                "related_concepts": "Court setup, equipment standards, boundary marking"
+            },
+            "questionType": 3,
+            "citation": "World Croquet Federation Equipment Regulations 2023",
+            "category": "Equipment and Setup"
+        },
+        {
+            "question": "What was the most significant change in croquet mallet design during the 1980s?",
+            "answers": [
+                {
+                    "id": "q56a1",
+                    "answer": "Introduction of carbon fiber shafts",
+                    "correct": true
+                },
+                {
+                    "id": "q56a2",
+                    "answer": "Wooden head design",
+                    "correct": false
+                },
+                {
+                    "id": "q56a3",
+                    "answer": "Metal end plates",
+                    "correct": false
+                },
+                {
+                    "id": "q56a4",
+                    "answer": "Grip materials",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Equipment Evolution",
+                "year": 1980,
+                "author": "Equipment Manufacturers",
+                "key_concepts": "Equipment development, material innovation, performance improvement",
+                "summary": "The introduction of carbon fiber shafts revolutionized mallet design by providing greater stability and consistency.",
+                "significance": "Major advancement in equipment technology",
+                "related_concepts": "Equipment development, playing technique, material science"
+            },
+            "questionType": 1,
+            "citation": "History of Croquet Equipment Development",
+            "category": "History"
+        },
+        {
+            "question": "Which famous match introduced the concept of 'time turns' in competitive play?",
+            "answers": [
+                {
+                    "id": "q57a1",
+                    "answer": "1974 Open Championship Final",
+                    "correct": true
+                },
+                {
+                    "id": "q57a2",
+                    "answer": "1980 World Championship",
+                    "correct": false
+                },
+                {
+                    "id": "q57a3",
+                    "answer": "1968 Test Match",
+                    "correct": false
+                },
+                {
+                    "id": "q57a4",
+                    "answer": "1985 MacRobertson Shield",
+                    "correct": false
+                }
+            ],
+            "correctTheory": {
+                "title": "Time Management Evolution",
+                "year": 1974,
+                "author": "Croquet Association",
+                "key_concepts": "Game management, historical development, tournament innovation",
+                "summary": "The 1974 Open Championship Final led to the introduction of time turns after a controversial match highlighted the need for better time management.",
+                "significance": "Changed tournament time management forever",
+                "related_concepts": "Tournament history, game management, rule development"
+            },
+            "questionType": 7,
+            "citation": "Croquet Association Historical Records",
+            "category": "Famous Matches and Players"
+        }
+    ]
+} 

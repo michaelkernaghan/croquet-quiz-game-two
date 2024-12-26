@@ -1,0 +1,115 @@
+{
+  "questions": [
+    {
+      "question": "What is the standard length of a full-size croquet court?",
+      "answers": [
+        {
+          "id": "q1a1",
+          "answer": "35 yards",
+          "correct": true
+        },
+        {
+          "id": "q1a2",
+          "answer": "30 yards",
+          "correct": false
+        },
+        {
+          "id": "q1a3",
+          "answer": "40 yards",
+          "correct": false
+        },
+        {
+          "id": "q1a4",
+          "answer": "45 yards",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Standard Court Dimensions",
+        "year": 1896,
+        "author": "Laws of Association Croquet",
+        "key_concepts": "Court dimensions, standardization, playing surface",
+        "summary": "The standard court size was established as 35 yards by 28 yards, with specific requirements for the playing surface and boundary markings.",
+        "significance": "Standardization of court dimensions was crucial for tournament play and consistent rules across different venues",
+        "related_concepts": "Boundary marking, hoop placement, yard-line"
+      },
+      "questionType": 3,
+      "citation": "Laws of Association Croquet, 7th Edition",
+      "category": "Equipment and Setup"
+    },
+    {
+      "question": "Who is credited with standardizing the rules of croquet in the 1860s?",
+      "answers": [
+        {
+          "id": "q2a1",
+          "answer": "Walter Jones Whitmore",
+          "correct": true
+        },
+        {
+          "id": "q2a2",
+          "answer": "John Jaques II",
+          "correct": false
+        },
+        {
+          "id": "q2a3",
+          "answer": "Lord Tollemache",
+          "correct": false
+        },
+        {
+          "id": "q2a4",
+          "answer": "Charles Dickens",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "First Standardized Rules of Croquet",
+        "year": 1866,
+        "author": "Walter Jones Whitmore",
+        "key_concepts": "Rule standardization, competitive play, game formalization",
+        "summary": "Whitmore published 'Croquet: The Laws and Regulations of the Game,' which became the foundation for modern croquet rules.",
+        "significance": "First comprehensive rulebook that standardized competitive play",
+        "related_concepts": "Tournament regulations, game variations, competitive formats"
+      },
+      "questionType": 1,
+      "citation": "Whitmore, W.J. (1866). Croquet: The Laws and Regulations of the Game",
+      "category": "History"
+    },
+    {
+      "question": "What is the 'triple peel'?",
+      "answers": [
+        {
+          "id": "q3a1",
+          "answer": "Running three hoops with the same ball in one turn",
+          "correct": false
+        },
+        {
+          "id": "q3a2",
+          "answer": "Peeling a ball through its last three hoops while going out",
+          "correct": true
+        },
+        {
+          "id": "q3a3",
+          "answer": "Making three consecutive roquet shots",
+          "correct": false
+        },
+        {
+          "id": "q3a4",
+          "answer": "Scoring three points in one turn",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Advanced Peeling Techniques",
+        "year": 1920,
+        "author": "Various Champions",
+        "key_concepts": "Peeling, break play, advanced tactics",
+        "summary": "The triple peel is an advanced tactic where a player peels their partner ball through its last three hoops while completing their own break to win the game.",
+        "significance": "Demonstrates highest level of tactical play in Association Croquet",
+        "related_concepts": "Break play, peeling, advanced tactics, game endings"
+      },
+      "questionType": 6,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Advanced Techniques"
+    }
+  ]
+}

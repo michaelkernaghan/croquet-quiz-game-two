@@ -1,0 +1,966 @@
+{
+  "questions": [
+    {
+      "question": "What is the standard length of a full-size croquet court?",
+      "answers": [
+        {
+          "id": "q1a1",
+          "answer": "35 yards",
+          "correct": true
+        },
+        {
+          "id": "q1a2",
+          "answer": "30 yards",
+          "correct": false
+        },
+        {
+          "id": "q1a3",
+          "answer": "40 yards",
+          "correct": false
+        },
+        {
+          "id": "q1a4",
+          "answer": "45 yards",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Standard Court Dimensions",
+        "year": 1896,
+        "author": "Laws of Association Croquet",
+        "key_concepts": "Court dimensions, standardization, playing surface",
+        "summary": "The standard court size was established as 35 yards by 28 yards, with specific requirements for the playing surface and boundary markings.",
+        "significance": "Standardization of court dimensions was crucial for tournament play and consistent rules across different venues",
+        "related_concepts": "Boundary marking, hoop placement, yard-line"
+      },
+      "questionType": 3,
+      "citation": "Laws of Association Croquet, 7th Edition",
+      "category": "Equipment and Setup"
+    },
+    {
+      "question": "Who is credited with standardizing the rules of croquet in the 1860s?",
+      "answers": [
+        {
+          "id": "q2a1",
+          "answer": "Walter Jones Whitmore",
+          "correct": true
+        },
+        {
+          "id": "q2a2",
+          "answer": "John Jaques II",
+          "correct": false
+        },
+        {
+          "id": "q2a3",
+          "answer": "Lord Tollemache",
+          "correct": false
+        },
+        {
+          "id": "q2a4",
+          "answer": "Charles Dickens",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "First Standardized Rules of Croquet",
+        "year": 1866,
+        "author": "Walter Jones Whitmore",
+        "key_concepts": "Rule standardization, competitive play, game formalization",
+        "summary": "Whitmore published 'Croquet: The Laws and Regulations of the Game,' which became the foundation for modern croquet rules.",
+        "significance": "First comprehensive rulebook that standardized competitive play",
+        "related_concepts": "Tournament regulations, game variations, competitive formats"
+      },
+      "questionType": 1,
+      "citation": "Whitmore, W.J. (1866). Croquet: The Laws and Regulations of the Game",
+      "category": "History"
+    },
+    {
+      "question": "What is the 'triple peel'?",
+      "answers": [
+        {
+          "id": "q3a1",
+          "answer": "Running three hoops with the same ball in one turn",
+          "correct": false
+        },
+        {
+          "id": "q3a2",
+          "answer": "Peeling a ball through its last three hoops while going out",
+          "correct": true
+        },
+        {
+          "id": "q3a3",
+          "answer": "Making three consecutive roquet shots",
+          "correct": false
+        },
+        {
+          "id": "q3a4",
+          "answer": "Scoring three points in one turn",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Advanced Peeling Techniques",
+        "year": 1920,
+        "author": "Various Champions",
+        "key_concepts": "Peeling, break play, advanced tactics",
+        "summary": "The triple peel is an advanced tactic where a player peels their partner ball through its last three hoops while completing their own break to win the game.",
+        "significance": "Demonstrates highest level of tactical play in Association Croquet",
+        "related_concepts": "Break play, peeling, advanced tactics, game endings"
+      },
+      "questionType": 6,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Advanced Techniques"
+    },
+    {
+      "question": "In Association Croquet, what happens when a ball is roqueted?",
+      "answers": [
+        {
+          "id": "q4a1",
+          "answer": "The turn ends immediately",
+          "correct": false
+        },
+        {
+          "id": "q4a2",
+          "answer": "The striker's ball becomes dead on the roqueted ball",
+          "correct": true
+        },
+        {
+          "id": "q4a3",
+          "answer": "The roqueted ball is removed from play",
+          "correct": false
+        },
+        {
+          "id": "q4a4",
+          "answer": "The striker gets an extra turn",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Roquet and Croquet Strokes",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Roquet, croquet stroke, continuation stroke",
+        "summary": "After a roquet, the striker's ball becomes dead on the roqueted ball and must take croquet before continuing play.",
+        "significance": "Fundamental rule that enables tactical play and break building",
+        "related_concepts": "Dead ball status, croquet stroke, continuation stroke"
+      },
+      "questionType": 2,
+      "citation": "Laws of Association Croquet, 7th Edition, Law 16",
+      "category": "Rules and Regulations"
+    },
+    {
+      "question": "What is the optimal order to approach hoops 1 and 2 in a standard break?",
+      "answers": [
+        {
+          "id": "q5a1",
+          "answer": "From the east boundary",
+          "correct": false
+        },
+        {
+          "id": "q5a2",
+          "answer": "From the west boundary",
+          "correct": false
+        },
+        {
+          "id": "q5a3",
+          "answer": "From the south boundary",
+          "correct": true
+        },
+        {
+          "id": "q5a4",
+          "answer": "From the north boundary",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Break Play Fundamentals",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Break play, hoop approaches, position play",
+        "summary": "Approaching hoops 1 and 2 from the south boundary provides the best angle and position for continuing the break.",
+        "significance": "Essential knowledge for building breaks and maintaining control",
+        "related_concepts": "Break building, position play, tactical approaches"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 3: Break Play",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What scoring system is used in the MacRobertson Shield?",
+      "answers": [
+        {
+          "id": "q6a1",
+          "answer": "Best of 5 games",
+          "correct": false
+        },
+        {
+          "id": "q6a2",
+          "answer": "Best of 3 games",
+          "correct": false
+        },
+        {
+          "id": "q6a3",
+          "answer": "Test match format",
+          "correct": true
+        },
+        {
+          "id": "q6a4",
+          "answer": "Single game knockout",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "International Tournament Formats",
+        "year": 1925,
+        "author": "Croquet Association",
+        "key_concepts": "Tournament formats, international competition, test matches",
+        "summary": "The MacRobertson Shield uses a test match format, where teams compete over multiple days in a series of matches.",
+        "significance": "Most prestigious team event in world croquet",
+        "related_concepts": "Team competition, international croquet, tournament structure"
+      },
+      "questionType": 5,
+      "citation": "World Croquet Federation Tournament Regulations",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "Who won the first MacRobertson Shield in 1925?",
+      "answers": [
+        {
+          "id": "q7a1",
+          "answer": "England",
+          "correct": false
+        },
+        {
+          "id": "q7a2",
+          "answer": "New Zealand",
+          "correct": false
+        },
+        {
+          "id": "q7a3",
+          "answer": "Australia",
+          "correct": true
+        },
+        {
+          "id": "q7a4",
+          "answer": "United States",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "MacRobertson Shield History",
+        "year": 1925,
+        "author": "Croquet Association",
+        "key_concepts": "International competition, team events, tournament history",
+        "summary": "The first MacRobertson Shield was won by Australia in 1925, establishing the tournament as the premier international team event in croquet.",
+        "significance": "Marked the beginning of international team competition in croquet",
+        "related_concepts": "International croquet, team competition, tournament history"
+      },
+      "questionType": 7,
+      "citation": "MacRobertson Shield Official Records, Croquet Association Archives",
+      "category": "Famous Matches and Players"
+    },
+    {
+      "question": "What is the correct distance between hoops 1 and 2 on a standard court?",
+      "answers": [
+        {
+          "id": "q8a1",
+          "answer": "7 yards",
+          "correct": true
+        },
+        {
+          "id": "q8a2",
+          "answer": "8 yards",
+          "correct": false
+        },
+        {
+          "id": "q8a3",
+          "answer": "6 yards",
+          "correct": false
+        },
+        {
+          "id": "q8a4",
+          "answer": "9 yards",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Court Setting and Measurements",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Court layout, hoop settings, measurements",
+        "summary": "The standard distance between hoops 1 and 2 is set at 7 yards, a measurement crucial for proper court setup and consistent play.",
+        "significance": "Essential for maintaining standardized court layouts worldwide",
+        "related_concepts": "Court dimensions, hoop placement, setting specifications"
+      },
+      "questionType": 2,
+      "citation": "Laws of Association Croquet, 7th Edition, Law 2",
+      "category": "Rules and Regulations"
+    },
+    {
+      "question": "Under current rules, what happens if a ball hits the peg when it is not pegged out?",
+      "answers": [
+        {
+          "id": "q9a1",
+          "answer": "The ball is removed from play",
+          "correct": false
+        },
+        {
+          "id": "q9a2",
+          "answer": "The turn ends immediately",
+          "correct": true
+        },
+        {
+          "id": "q9a3",
+          "answer": "The ball is replaced",
+          "correct": false
+        },
+        {
+          "id": "q9a4",
+          "answer": "Play continues normally",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Peg and Rover Ball Rules",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Peg out rules, rover balls, end game",
+        "summary": "A ball that hits the peg when it is not pegged out causes the turn to end immediately, maintaining the strategic nature of endgame play.",
+        "significance": "Critical rule for endgame tactics and rover ball management",
+        "related_concepts": "Rover status, peg out, endgame strategy"
+      },
+      "questionType": 2,
+      "citation": "Laws of Association Croquet, 7th Edition, Law 38",
+      "category": "Rules and Regulations"
+    },
+    {
+      "question": "What is the recommended grip pressure for a stop shot?",
+      "answers": [
+        {
+          "id": "q10a1",
+          "answer": "Very firm",
+          "correct": false
+        },
+        {
+          "id": "q10a2",
+          "answer": "Medium to light",
+          "correct": true
+        },
+        {
+          "id": "q10a3",
+          "answer": "As tight as possible",
+          "correct": false
+        },
+        {
+          "id": "q10a4",
+          "answer": "Varies with distance",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Modern Stop Shot Technique",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Stop shot, grip pressure, shot control",
+        "summary": "A medium to light grip pressure is essential for executing stop shots effectively, allowing the mallet to naturally rebound.",
+        "significance": "Fundamental technique for accurate stop shot execution",
+        "related_concepts": "Shot types, mallet control, basic techniques"
+      },
+      "questionType": 6,
+      "citation": "Croquet Coaching Handbook, Chapter 2: Basic Shots",
+      "category": "Techniques and Skills"
+    },
+    {
+      "question": "In modern Association Croquet, what is the time limit for a standard tournament game?",
+      "answers": [
+        {
+          "id": "q11a1",
+          "answer": "2 hours",
+          "correct": false
+        },
+        {
+          "id": "q11a2",
+          "answer": "3 hours",
+          "correct": true
+        },
+        {
+          "id": "q11a3",
+          "answer": "4 hours",
+          "correct": false
+        },
+        {
+          "id": "q11a4",
+          "answer": "No time limit",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Tournament Time Limits",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Time limits, tournament play, game management",
+        "summary": "Standard tournament games are typically set at 3 hours, with specific rules for handling endings when time is called.",
+        "significance": "Essential for tournament organization and play management",
+        "related_concepts": "Tournament regulations, time management, competitive play"
+      },
+      "questionType": 5,
+      "citation": "World Croquet Federation Tournament Regulations 2023",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "In a standard break, what is the recommended position for ball 4 before attempting hoop 1?",
+      "answers": [
+        {
+          "id": "q12a1",
+          "answer": "Near hoop 2",
+          "correct": false
+        },
+        {
+          "id": "q12a2",
+          "answer": "Near the peg",
+          "correct": false
+        },
+        {
+          "id": "q12a3",
+          "answer": "South of hoop 1",
+          "correct": true
+        },
+        {
+          "id": "q12a4",
+          "answer": "Near corner 4",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Break Play Setup",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Break setup, ball positioning, tactical play",
+        "summary": "Positioning ball 4 south of hoop 1 provides optimal control and options for continuing the break after running the hoop.",
+        "significance": "Fundamental principle of break play setup and control",
+        "related_concepts": "Ball positioning, break control, tactical planning"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 3: Break Play",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "When setting up a delayed triple peel, which hoop should the peelee ideally be positioned at first?",
+      "answers": [
+        {
+          "id": "q13a1",
+          "answer": "Hoop 4",
+          "correct": true
+        },
+        {
+          "id": "q13a2",
+          "answer": "Hoop 3",
+          "correct": false
+        },
+        {
+          "id": "q13a3",
+          "answer": "Penultimate",
+          "correct": false
+        },
+        {
+          "id": "q13a4",
+          "answer": "Rover",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Delayed Triple Peel Strategy",
+        "year": 2020,
+        "author": "Robert Fulford",
+        "key_concepts": "Triple peel, delayed peeling, advanced tactics",
+        "summary": "In a delayed triple peel, positioning the peelee at hoop 4 allows for optimal control and timing of the subsequent peels.",
+        "significance": "Key strategy for executing advanced peeling breaks",
+        "related_concepts": "Triple peel, break control, advanced tactics"
+      },
+      "questionType": 4,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What is the primary advantage of a straight double peel over a standard triple peel?",
+      "answers": [
+        {
+          "id": "q14a1",
+          "answer": "It's easier to execute",
+          "correct": false
+        },
+        {
+          "id": "q14a2",
+          "answer": "Requires fewer turns",
+          "correct": false
+        },
+        {
+          "id": "q14a3",
+          "answer": "Better control of opponent's balls",
+          "correct": true
+        },
+        {
+          "id": "q14a4",
+          "answer": "More points scored",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Advanced Peeling Tactics",
+        "year": 2020,
+        "author": "Robert Fulford",
+        "key_concepts": "Double peel, tactical advantage, game control",
+        "summary": "A straight double peel allows better control of the opponent's balls throughout the break, providing tactical advantages in game management.",
+        "significance": "Important tactical variation in advanced play",
+        "related_concepts": "Peeling tactics, game control, break management"
+      },
+      "questionType": 4,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "In modern tournament play, what is considered the standard opening with a supershot?",
+      "answers": [
+        {
+          "id": "q15a1",
+          "answer": "Corner 1 to corner 2",
+          "correct": false
+        },
+        {
+          "id": "q15a2",
+          "answer": "Corner 1 to hoop 1",
+          "correct": false
+        },
+        {
+          "id": "q15a3",
+          "answer": "Corner 1 to B-baulk",
+          "correct": true
+        },
+        {
+          "id": "q15a4",
+          "answer": "Corner 1 to corner 4",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Modern Opening Tactics",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Opening tactics, supershot, tactical positioning",
+        "summary": "The standard supershot opening places the first ball in corner 1 and the second in B-baulk, providing optimal tactical opportunities.",
+        "significance": "Fundamental opening strategy in modern competitive play",
+        "related_concepts": "Opening tactics, ball placement, game initiation"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 4: Opening Tactics",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "When performing a triple peel on partner, what is the recommended hoop to attempt the first peel?",
+      "answers": [
+        {
+          "id": "q16a1",
+          "answer": "1-back",
+          "correct": true
+        },
+        {
+          "id": "q16a2",
+          "answer": "2-back",
+          "correct": false
+        },
+        {
+          "id": "q16a3",
+          "answer": "3-back",
+          "correct": false
+        },
+        {
+          "id": "q16a4",
+          "answer": "Penultimate",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Triple Peel Execution",
+        "year": 2020,
+        "author": "Robert Fulford",
+        "key_concepts": "Triple peel, peeling sequence, advanced tactics",
+        "summary": "Starting the triple peel at 1-back provides the best control and options for completing the remaining peels.",
+        "significance": "Critical for successful execution of triple peels",
+        "related_concepts": "Peeling sequence, break control, advanced tactics"
+      },
+      "questionType": 6,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Advanced Techniques"
+    },
+    {
+      "question": "In modern tournament play with time limits, what is the recommended lead in points before attempting a triple peel?",
+      "answers": [
+        {
+          "id": "q17a1",
+          "answer": "Any lead is sufficient",
+          "correct": false
+        },
+        {
+          "id": "q17a2",
+          "answer": "At least 3 points",
+          "correct": false
+        },
+        {
+          "id": "q17a3",
+          "answer": "At least 8 points",
+          "correct": true
+        },
+        {
+          "id": "q17a4",
+          "answer": "Only when behind",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Tournament Tactics and Risk Management",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Tournament tactics, risk management, game strategy",
+        "summary": "In timed games, attempting a triple peel is recommended only with a substantial lead of at least 8 points to manage risk effectively.",
+        "significance": "Essential principle for tournament tactics and game management",
+        "related_concepts": "Risk assessment, game management, competitive strategy"
+      },
+      "questionType": 5,
+      "citation": "World Croquet Federation Tournament Guidelines 2023",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "In a standard break, what is the optimal position for the pioneer ball at hoop 2?",
+      "answers": [
+        {
+          "id": "q18a1",
+          "answer": "Directly in front of the hoop",
+          "correct": false
+        },
+        {
+          "id": "q18a2",
+          "answer": "Two yards north of the hoop",
+          "correct": true
+        },
+        {
+          "id": "q18a3",
+          "answer": "One yard east of the hoop",
+          "correct": false
+        },
+        {
+          "id": "q18a4",
+          "answer": "Three yards west of the hoop",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Pioneer Ball Positioning",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Break play, pioneer positioning, tactical control",
+        "summary": "Placing the pioneer two yards north of hoop 2 provides optimal position for continuation after running the hoop.",
+        "significance": "Critical for maintaining break control and position",
+        "related_concepts": "Break play, pioneer placement, tactical positioning"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 3: Break Play",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "When executing a triple peel, what is the recommended yard-line position for the peelee before the penultimate peel?",
+      "answers": [
+        {
+          "id": "q19a1",
+          "answer": "West yard-line",
+          "correct": false
+        },
+        {
+          "id": "q19a2",
+          "answer": "South yard-line",
+          "correct": true
+        },
+        {
+          "id": "q19a3",
+          "answer": "North yard-line",
+          "correct": false
+        },
+        {
+          "id": "q19a4",
+          "answer": "East yard-line",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Triple Peel Position Play",
+        "year": 2020,
+        "author": "Robert Fulford",
+        "key_concepts": "Triple peel, position play, advanced tactics",
+        "summary": "Positioning the peelee on the south yard-line before the penultimate peel provides the best angle and control for completing the triple peel.",
+        "significance": "Essential for successful execution of the final stages of a triple peel",
+        "related_concepts": "Peeling tactics, yard-line positioning, endgame control"
+      },
+      "questionType": 4,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What is the recommended approach when the striker's ball is hampered on a pioneer ball during a break?",
+      "answers": [
+        {
+          "id": "q20a1",
+          "answer": "Always play a roll shot",
+          "correct": false
+        },
+        {
+          "id": "q20a2",
+          "answer": "Take off to the next pioneer",
+          "correct": false
+        },
+        {
+          "id": "q20a3",
+          "answer": "Use a stop-shot to create separation",
+          "correct": true
+        },
+        {
+          "id": "q20a4",
+          "answer": "Abandon the break",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Hampered Ball Management",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Break control, hampered shots, tactical recovery",
+        "summary": "Using a stop-shot to create separation when hampered on a pioneer ball maintains break control while establishing better position.",
+        "significance": "Key technique for managing common break play challenges",
+        "related_concepts": "Break recovery, shot selection, position play"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 5: Advanced Break Play",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "When using a jump shot over a dead ball, what is the maximum permitted mallet angle under current rules?",
+      "answers": [
+        {
+          "id": "q21a1",
+          "answer": "45 degrees",
+          "correct": true
+        },
+        {
+          "id": "q21a2",
+          "answer": "60 degrees",
+          "correct": false
+        },
+        {
+          "id": "q21a3",
+          "answer": "30 degrees",
+          "correct": false
+        },
+        {
+          "id": "q21a4",
+          "answer": "No angle limit",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Jump Shot Regulations",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Jump shots, mallet angles, tactical shots",
+        "summary": "The 45-degree limit on jump shots balances tactical possibilities with equipment protection and fair play.",
+        "significance": "Critical rule for advanced tactical play while maintaining equipment integrity",
+        "related_concepts": "Equipment rules, advanced shots, tactical options"
+      },
+      "questionType": 4,
+      "citation": "Laws of Association Croquet, 7th Edition, Law 28",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "In tournament play, what is the recommended tactic when your opponent has a spread triple peel set up with 10 minutes remaining?",
+      "answers": [
+        {
+          "id": "q22a1",
+          "answer": "Concede the game",
+          "correct": false
+        },
+        {
+          "id": "q22a2",
+          "answer": "Place balls on yard-lines",
+          "correct": false
+        },
+        {
+          "id": "q22a3",
+          "answer": "Force defensive play near boundaries",
+          "correct": true
+        },
+        {
+          "id": "q22a4",
+          "answer": "Attempt a sextuple peel",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Time Management Tactics",
+        "year": 2020,
+        "author": "Robert Fulford",
+        "key_concepts": "Time management, defensive tactics, endgame strategy",
+        "summary": "Forcing defensive boundary play can disrupt a triple peel attempt while maximizing time usage in critical endgame situations.",
+        "significance": "Essential tactic for managing time pressure in tournament endgames",
+        "related_concepts": "Time management, defensive play, tournament tactics"
+      },
+      "questionType": 4,
+      "citation": "Fulford, R. (2020). Advanced Tournament Tactics",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What is the optimal mallet weight for executing stop-shot peels in modern competitive play?",
+      "answers": [
+        {
+          "id": "q23a1",
+          "answer": "2.5 to 3.0 pounds",
+          "correct": true
+        },
+        {
+          "id": "q23a2",
+          "answer": "3.5 to 4.0 pounds",
+          "correct": false
+        },
+        {
+          "id": "q23a3",
+          "answer": "1.5 to 2.0 pounds",
+          "correct": false
+        },
+        {
+          "id": "q23a4",
+          "answer": "Over 4.0 pounds",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Equipment Optimization for Advanced Play",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Equipment selection, shot execution, technical optimization",
+        "summary": "A mallet weight of 2.5-3.0 pounds provides optimal control and feedback for executing precise stop-shot peels.",
+        "significance": "Equipment choice directly impacts advanced shot execution",
+        "related_concepts": "Equipment specifications, shot technique, peeling control"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 7: Equipment Selection",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "When attempting a triple peel from 1-back, what is the recommended position for the striker's ball before the first peel?",
+      "answers": [
+        {
+          "id": "q24a1",
+          "answer": "Directly behind the peelee",
+          "correct": false
+        },
+        {
+          "id": "q24a2",
+          "answer": "Three feet behind at an angle",
+          "correct": true
+        },
+        {
+          "id": "q24a3",
+          "answer": "Directly in front of the peelee",
+          "correct": false
+        },
+        {
+          "id": "q24a4",
+          "answer": "Two yards behind the peelee",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Triple Peel Position Control",
+        "year": 2020,
+        "author": "Robert Fulford",
+        "key_concepts": "Peeling technique, position control, advanced tactics",
+        "summary": "Positioning the striker's ball three feet behind at an angle provides optimal control for both the peel and subsequent rush.",
+        "significance": "Critical for maintaining control throughout the triple peel sequence",
+        "related_concepts": "Peeling angles, rush positioning, break control"
+      },
+      "questionType": 4,
+      "citation": "Fulford, R. (2020). Peeling Techniques in Association Croquet",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "In a three-ball ending, what is the recommended tactic when you have two balls near rover and opponent's ball is in corner 4?",
+      "answers": [
+        {
+          "id": "q25a1",
+          "answer": "Attempt immediate rover peels",
+          "correct": false
+        },
+        {
+          "id": "q25a2",
+          "answer": "Set up a cross-wire at penultimate",
+          "correct": true
+        },
+        {
+          "id": "q25a3",
+          "answer": "Rush to corner 1",
+          "correct": false
+        },
+        {
+          "id": "q25a4",
+          "answer": "Shoot at the peg",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Advanced Endgame Tactics",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Endgame strategy, three-ball endings, tactical control",
+        "summary": "Setting up a cross-wire at penultimate provides the best control and prevents the opponent from gaining an attacking position.",
+        "significance": "Key tactic for controlling the endgame in three-ball situations",
+        "related_concepts": "Endgame control, wiring tactics, position play"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 6: Advanced Endings",
+      "category": "Strategy and Tactics"
+    },
+    {
+      "question": "What is the primary consideration when deciding between a stop-shot and roll shot for a pioneer ball placement?",
+      "answers": [
+        {
+          "id": "q26a1",
+          "answer": "Distance to the target",
+          "correct": false
+        },
+        {
+          "id": "q26a2",
+          "answer": "Ground conditions",
+          "correct": false
+        },
+        {
+          "id": "q26a3",
+          "answer": "Subsequent ball positions",
+          "correct": true
+        },
+        {
+          "id": "q26a4",
+          "answer": "Wind direction",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Pioneer Ball Control",
+        "year": 2020,
+        "author": "Coaching Manual",
+        "key_concepts": "Shot selection, break planning, tactical positioning",
+        "summary": "The choice between stop-shot and roll shot should primarily be based on the desired positions of both balls for the next phase of the break.",
+        "significance": "Fundamental principle for maintaining break control and position",
+        "related_concepts": "Break control, shot selection, position play"
+      },
+      "questionType": 4,
+      "citation": "Croquet Coaching Handbook, Chapter 4: Break Development",
+      "category": "Strategy and Tactics"
+    }
+  ]
+}
