@@ -4,25 +4,39 @@ A web-based quiz application for testing and improving croquet knowledge, featur
 
 ## Features
 
-- Interactive quiz interface with multiple-choice questions
-- Score tracking and achievement levels
+- Interactive quiz interface with multiple-choice questions in a four-square layout
+- Hoop-based scoring system (1, 2, 3, 4, 1B, 2B, etc., through to Peg)
+- Achievement messages showing hoop progress after correct answers
 - Daily and all-time high score boards
-- Question feedback with source citations
+- Question feedback with source citations and theoretical context
 - "Dubious Question" feature for flagging questionable content
 - Responsive design for desktop and mobile use
+- Comprehensive question validation system
+
+## Question Categories
+
+The quiz includes balanced coverage across seven categories:
+- Strategy and Tactics
+- Rules and Regulations
+- Tournament and Competition
+- Techniques and Skills
+- Equipment
+- History
+- Famous Matches and Players
 
 ## Technology Stack
 
-- Frontend: Vanilla JavaScript, HTML5, CSS3
+- Frontend: Vanilla JavaScript, HTML5, SCSS
 - Backend: Node.js, Express
 - Data Storage: JSON files, Local Storage for scores
+- Validation: Custom question validation script
 
 ## Setup
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/michaelkernaghan/croquet-quiz-game.git
-cd croquet-quiz-game
+git clone https://github.com/michaelkernaghan/croquet-quiz-game-two.git
+cd croquet-quiz-game-two
 ```
 
 2. Install dependencies:
@@ -32,7 +46,7 @@ npm install
 
 3. Start the server:
 ```bash
-node src/server.js
+node src/frontend/server.js
 ```
 
 4. Open your browser and navigate to `http://localhost:3000`
@@ -42,17 +56,20 @@ node src/server.js
 ### Project Structure
 
 ```
-croquet-quiz-game/
+croquet-quiz-game-two/
 ├── src/
-│   ├── frontend/          # Frontend assets
-│   │   ├── app.js        # Main application logic
-│   │   ├── styles.css    # Styling
-│   │   └── index.html    # Main HTML
-│   └── server.js         # Express server
-├── rag/                  # Source materials
-├── docs/                 # Documentation
-├── scripts/             # Utility scripts
-└── public/              # Static assets
+│   ├── frontend/
+│   │   ├── app.js              # Main application logic
+│   │   ├── styles.scss         # SCSS styling
+│   │   ├── styles.css          # Compiled CSS
+│   │   ├── index.html          # Main HTML
+│   │   ├── server.js           # Express server
+│   │   ├── croquet-questions.json    # Main questions database
+│   │   ├── dubious-questions.json    # Tracked problematic questions
+│   │   └── wylie-figure-map.json     # Image mapping for diagrams
+├── scripts/
+│   └── validate-questions.js    # Question validation script
+└── backups/                     # Question database backups
 ```
 
 ### Question Format
@@ -64,48 +81,52 @@ Questions are stored in JSON format with the following structure:
   "question": "Question text",
   "answers": [
     {
+      "id": "unique_id",
       "answer": "Option A",
       "correct": false
-    },
-    {
-      "answer": "Option B",
-      "correct": true
     }
   ],
-  "citation": "Source reference",
-  "category": "Category name",
   "correctTheory": {
     "title": "Theory title",
-    "summary": "Explanation of the correct answer"
-  }
+    "year": "Year of relevance",
+    "author": "Source author",
+    "key_concepts": "Key concepts covered",
+    "summary": "Detailed explanation",
+    "significance": "Historical/practical significance",
+    "related_concepts": "Related croquet concepts"
+  },
+  "citation": "Source reference",
+  "category": "Category name",
+  "questionType": "Question type number"
 }
 ```
 
-### Adding New Questions
+### Quality Standards
 
-1. Questions can be added to `src/frontend/croquet-questions.json`
-2. Each question must include:
-   - Question text
-   - Multiple choice answers (with one correct)
-   - Source citation
-   - Category
-   - Correct theory explanation
+1. All questions must be factually verifiable
+2. Citations must come from recognized croquet authorities
+3. Each question requires comprehensive theoretical context
+4. Questions must avoid subjective language
+5. All questions must pass automated validation checks
 
 ### Data Sources
 
 Questions are derived from authoritative croquet sources:
-- MacRobertson Shield 2022 Commentary
-- Oxford Croquet Articles
-- Expert Croquet Tactics by Keith Wylie
-- World Croquet Federation Guidelines
+- Laws of Association Croquet
+- World Croquet Federation Records
+- Croquet Association Archives
+- Historical Tournament Records
+- Equipment Standards Documentation
+- Official Championship Records
 
 ## Contributing
 
 1. Fork the repository
 2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+3. Ensure all questions pass validation
+4. Commit your changes
+5. Push to the branch
+6. Create a Pull Request
 
 ## License
 
@@ -113,6 +134,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Questions generated by Claude 3.5 Sonnet and curated by A. Human
+- Questions curated with assistance from AI, verified against authoritative sources
 - Special thanks to the croquet community for maintaining comprehensive documentation
 - Built with respect for the traditions and technical aspects of croquet
