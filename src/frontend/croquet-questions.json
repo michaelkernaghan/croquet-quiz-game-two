@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "questionCount": 45,
+  "questionCount": 51,
   "lastUpdated": "2024-12-26",
   "questions": [
     {
@@ -1666,6 +1666,228 @@
       },
       "questionType": 5,
       "citation": "World Croquet Federation Championship Records",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "What was the standard ball weight established by the Croquet Association in 1920?",
+      "answers": [
+        {
+          "id": "newEq3a1",
+          "answer": "16 ounces",
+          "correct": true
+        },
+        {
+          "id": "newEq3a2",
+          "answer": "14 ounces",
+          "correct": false
+        },
+        {
+          "id": "newEq3a3",
+          "answer": "18 ounces",
+          "correct": false
+        },
+        {
+          "id": "newEq3a4",
+          "answer": "20 ounces",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Ball Standardization",
+        "year": 1920,
+        "author": "Croquet Association",
+        "key_concepts": "Equipment standards, ball specifications",
+        "summary": "The Croquet Association established the standard ball weight at 16 ounces in 1920, a specification that remains in effect.",
+        "significance": "Critical for equipment standardization",
+        "related_concepts": "Equipment standards, ball manufacturing"
+      },
+      "questionType": 1,
+      "citation": "Croquet Association Equipment Standards, 1920",
+      "category": "Equipment"
+    },
+    {
+      "question": "Which historic croquet club hosted the first American National Championship in 1882?",
+      "answers": [
+        {
+          "id": "newHist3a1",
+          "answer": "Norwich Croquet Club",
+          "correct": true
+        },
+        {
+          "id": "newHist3a2",
+          "answer": "Boston Croquet Club",
+          "correct": false
+        },
+        {
+          "id": "newHist3a3",
+          "answer": "New York Croquet Club",
+          "correct": false
+        },
+        {
+          "id": "newHist3a4",
+          "answer": "Philadelphia Croquet Club",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "American Championship History",
+        "year": 1882,
+        "author": "United States Croquet Association",
+        "key_concepts": "Tournament history, American croquet",
+        "summary": "The Norwich Croquet Club in Connecticut hosted the first American National Championship in 1882, marking the beginning of organized competitive croquet in America.",
+        "significance": "First national championship in American croquet",
+        "related_concepts": "American croquet, tournament history"
+      },
+      "questionType": 3,
+      "citation": "United States Croquet Association Historical Records, 1882",
+      "category": "History"
+    },
+    {
+      "question": "Who won the first Women's World Championship in 1985?",
+      "answers": [
+        {
+          "id": "newFM3a1",
+          "answer": "Maria Rowling",
+          "correct": true
+        },
+        {
+          "id": "newFM3a2",
+          "answer": "Patricia Carlisle",
+          "correct": false
+        },
+        {
+          "id": "newFM3a3",
+          "answer": "Sarah Hamilton",
+          "correct": false
+        },
+        {
+          "id": "newFM3a4",
+          "answer": "Jane Morrison",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Women's Championship History",
+        "year": 1985,
+        "author": "World Croquet Federation",
+        "key_concepts": "Women's competition, championship history",
+        "summary": "Maria Rowling won the inaugural Women's World Championship in 1985, establishing herself as the first women's world champion in croquet.",
+        "significance": "First Women's World Championship victory",
+        "related_concepts": "Women's competition, championship history"
+      },
+      "questionType": 5,
+      "citation": "World Croquet Federation Championship Records, 1985",
+      "category": "Famous Matches and Players"
+    },
+    {
+      "question": "Under the current Laws of Association Croquet, what is the minimum width required for corner flags?",
+      "answers": [
+        {
+          "id": "newRR1a1",
+          "answer": "3/4 inch",
+          "correct": true
+        },
+        {
+          "id": "newRR1a2",
+          "answer": "1/2 inch",
+          "correct": false
+        },
+        {
+          "id": "newRR1a3",
+          "answer": "1 inch",
+          "correct": false
+        },
+        {
+          "id": "newRR1a4",
+          "answer": "1.5 inches",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Corner Flag Specifications",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Court marking, equipment standards",
+        "summary": "The Laws specify that corner flags must be at least 3/4 inch in width and mounted on posts.",
+        "significance": "Essential for proper court marking and visibility",
+        "related_concepts": "Court setup, boundary marking, equipment standards"
+      },
+      "questionType": 2,
+      "citation": "Laws of Association Croquet, 7th Edition, Law 4",
+      "category": "Rules and Regulations"
+    },
+    {
+      "question": "What is the time limit for a standard Association Croquet tournament game under WCF regulations?",
+      "answers": [
+        {
+          "id": "newRR2a1",
+          "answer": "3 hours",
+          "correct": true
+        },
+        {
+          "id": "newRR2a2",
+          "answer": "2 hours",
+          "correct": false
+        },
+        {
+          "id": "newRR2a3",
+          "answer": "4 hours",
+          "correct": false
+        },
+        {
+          "id": "newRR2a4",
+          "answer": "2.5 hours",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Tournament Time Limits",
+        "year": 2023,
+        "author": "World Croquet Federation",
+        "key_concepts": "Tournament regulations, time management",
+        "summary": "The standard time limit for tournament games is 3 hours, as specified in WCF tournament regulations.",
+        "significance": "Critical for tournament scheduling and play management",
+        "related_concepts": "Tournament management, game duration, competition rules"
+      },
+      "questionType": 2,
+      "citation": "World Croquet Federation Tournament Regulations, Section T2",
+      "category": "Tournament and Competition"
+    },
+    {
+      "question": "In the Solomon Trophy, how many singles matches are played in each test match?",
+      "answers": [
+        {
+          "id": "newTourn3a1",
+          "answer": "12",
+          "correct": true
+        },
+        {
+          "id": "newTourn3a2",
+          "answer": "9",
+          "correct": false
+        },
+        {
+          "id": "newTourn3a3",
+          "answer": "15",
+          "correct": false
+        },
+        {
+          "id": "newTourn3a4",
+          "answer": "18",
+          "correct": false
+        }
+      ],
+      "correctTheory": {
+        "title": "Solomon Trophy Format",
+        "year": 2023,
+        "author": "Croquet Association",
+        "key_concepts": "Tournament format, international competition",
+        "summary": "The Solomon Trophy format includes 12 singles matches per test match, as established in the tournament regulations.",
+        "significance": "Key format for GB-USA international competition",
+        "related_concepts": "International competition, match format, test matches"
+      },
+      "questionType": 5,
+      "citation": "Solomon Trophy Tournament Regulations, 2023",
       "category": "Tournament and Competition"
     }
   ]
